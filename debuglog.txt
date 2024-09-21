@@ -1,0 +1,3128 @@
+10:29:38.984 AM (UTC): [INFO] [<Form1_Load>d__32.MoveNext] Attempting to Initalize ADB Server
+10:29:39.013 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: kill-server
+10:29:41.182 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] cannot connect to daemon at tcp:5037: cannot connect to 127.0.0.1:5037: No connection could be made because the target machine actively refused it. (10061)
+
+
+10:29:41.226 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: start-server
+10:29:43.329 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+
+10:29:43.459 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Attempting to update public config from main.
+10:29:44.111 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Retrieved updated config from main: https://raw.githubusercontent.com/vrpyou/quest/main/vrp-public.json.
+10:29:44.157 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Public config updated successfully from main.
+10:29:44.280 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Attempting to Update Download Config
+10:29:45.247 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.download.config
+10:29:45.314 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Online Config Hash: d41d8cd98f00b204e9800998ecf8427e; Local Config Hash: d41d8cd98f00b204e9800998ecf8427e
+10:29:45.315 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Updated Config Hash matches last download. Not updating.
+10:29:45.315 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Attempting to Update Upload Config
+10:29:45.551 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.upload.config
+10:29:45.572 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Upload config updated successfully.
+10:29:45.574 AM (UTC): [INFO] [RCLONE.runRcloneCommand_DownloadConfig] Running Rclone command: listremotes --config vrp.download.config
+10:29:47.051 AM (UTC): [INFO] [MainForm.initMirrors] Loaded following mirrors: 
+10:29:47.223 AM (UTC): [INFO] [SideloaderRCLONE.UpdateMetadataFromPublic] Downloading Metadata
+10:29:47.225 AM (UTC): [INFO] [RCLONE.runRcloneCommand_PublicConfig] Running Rclone command: sync ":http:/meta.7z" "CurrentDirectory"
+10:29:52.348 AM (UTC): [ERROR] [RCLONE.runRcloneCommand_PublicConfig] Rclone error: 2024/09/15 17:29:47 NOTICE: Config file "C:\\Users\\Duy\\AppData\\Roaming\\rclone\\rclone.conf" not found - using defaults
+
+
+
+10:29:52.350 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Extracting Metadata
+10:29:52.352 AM (UTC): [INFO] [Zip.DoExtract] Extract: 7z x "F:\Quest 2\rookie_2.19_portable\meta.7z" -y -o"F:\Quest 2\rookie_2.19_portable\meta" -bsp1
+10:29:57.688 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Updating Metadata
+10:29:58.286 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Initializing Games List
+10:29:58.309 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: devices
+10:29:58.335 AM (UTC): [INFO] [ADB.RunAdbCommandToString] List of devices attached
+
+
+10:29:58.410 AM (UTC): [INFO] [<CheckForDevice>d__41.MoveNext] Devices:
+10:29:58.421 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: shell df
+10:29:58.439 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+10:29:58.455 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+10:29:58.473 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+10:29:58.485 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: shell df
+10:29:58.515 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+10:43:38.551 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+10:57:38.549 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+11:05:14.242 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: kill-server
+11:05:29.212 AM (UTC): [INFO] [MainForm.InitializeLogger] 
+------
+------
+Program Launched at: 06:05PM(UTC)
+------
+------
+
+11:05:29.298 AM (UTC): [INFO] [<Form1_Load>d__32.MoveNext] Starting AndroidSideloader Application
+11:05:29.319 AM (UTC): [INFO] [Sideloader.downloadFiles] Current RCLONE Version 1.66.0
+11:05:29.341 AM (UTC): [INFO] [<Form1_Load>d__32.MoveNext] Attempting to Initalize ADB Server
+11:05:29.345 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: kill-server
+11:05:31.404 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] cannot connect to daemon at tcp:5037: cannot connect to 127.0.0.1:5037: No connection could be made because the target machine actively refused it. (10061)
+
+
+11:05:31.409 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: start-server
+11:05:33.478 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+
+11:05:33.505 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Attempting to update public config from main.
+11:05:34.096 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Retrieved updated config from main: https://raw.githubusercontent.com/vrpyou/quest/main/vrp-public.json.
+11:05:34.155 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Public config updated successfully from main.
+11:05:34.246 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Attempting to Update Download Config
+11:05:35.227 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.download.config
+11:05:35.229 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Online Config Hash: d41d8cd98f00b204e9800998ecf8427e; Local Config Hash: d41d8cd98f00b204e9800998ecf8427e
+11:05:35.229 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Updated Config Hash matches last download. Not updating.
+11:05:35.230 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Attempting to Update Upload Config
+11:05:35.470 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.upload.config
+11:05:35.494 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Upload config updated successfully.
+11:05:35.497 AM (UTC): [INFO] [RCLONE.runRcloneCommand_DownloadConfig] Running Rclone command: listremotes --config vrp.download.config
+11:05:35.577 AM (UTC): [INFO] [MainForm.initMirrors] Loaded following mirrors: 
+11:05:35.771 AM (UTC): [INFO] [SideloaderRCLONE.UpdateMetadataFromPublic] Downloading Metadata
+11:05:35.772 AM (UTC): [INFO] [RCLONE.runRcloneCommand_PublicConfig] Running Rclone command: sync ":http:/meta.7z" "CurrentDirectory"
+11:05:36.089 AM (UTC): [ERROR] [RCLONE.runRcloneCommand_PublicConfig] Rclone error: 2024/09/15 18:05:35 NOTICE: Config file "C:\\Users\\Duy\\AppData\\Roaming\\rclone\\rclone.conf" not found - using defaults
+
+
+
+11:05:36.091 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Extracting Metadata
+11:05:36.093 AM (UTC): [INFO] [Zip.DoExtract] Extract: 7z x "F:\Quest 2\rookie_2.19_portable\meta.7z" -y -o"F:\Quest 2\rookie_2.19_portable\meta" -bsp1
+11:05:40.802 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Updating Metadata
+11:05:41.272 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Initializing Games List
+11:05:41.295 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: devices
+11:05:41.323 AM (UTC): [INFO] [ADB.RunAdbCommandToString] List of devices attached
+
+
+11:05:41.400 AM (UTC): [INFO] [<CheckForDevice>d__41.MoveNext] Devices:
+11:05:41.415 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: shell df
+11:05:41.432 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+11:05:41.450 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+11:05:41.465 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+11:05:41.472 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: shell df
+11:05:41.495 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] adb.exe: no devices/emulators found
+
+11:07:08.645 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: kill-server
+11:07:10.775 AM (UTC): [INFO] [MainForm.InitializeLogger] 
+------
+------
+Program Launched at: 06:07PM(UTC)
+------
+------
+
+11:07:10.857 AM (UTC): [INFO] [<Form1_Load>d__32.MoveNext] Starting AndroidSideloader Application
+11:07:10.897 AM (UTC): [INFO] [Sideloader.downloadFiles] Current RCLONE Version 1.66.0
+11:07:10.910 AM (UTC): [INFO] [<Form1_Load>d__32.MoveNext] Attempting to Initalize ADB Server
+11:07:10.914 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: kill-server
+11:07:12.969 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] cannot connect to daemon at tcp:5037: cannot connect to 127.0.0.1:5037: No connection could be made because the target machine actively refused it. (10061)
+
+
+11:07:12.973 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: start-server
+11:07:15.045 AM (UTC): [ERROR] [ADB.RunAdbCommandToString] * daemon not running; starting now at tcp:5037
+* daemon started successfully
+
+
+11:07:15.072 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Attempting to update public config from main.
+11:07:15.363 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Retrieved updated config from main: https://raw.githubusercontent.com/vrpyou/quest/main/vrp-public.json.
+11:07:15.380 AM (UTC): [INFO] [SideloaderRCLONE.updatePublicConfig] Public config updated successfully from main.
+11:07:15.468 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Attempting to Update Download Config
+11:07:17.109 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.download.config
+11:07:17.111 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Online Config Hash: d41d8cd98f00b204e9800998ecf8427e; Local Config Hash: d41d8cd98f00b204e9800998ecf8427e
+11:07:17.111 AM (UTC): [INFO] [SideloaderRCLONE.updateDownloadConfig] Updated Config Hash matches last download. Not updating.
+11:07:17.112 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Attempting to Update Upload Config
+11:07:17.347 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Retrieved updated config from: https://vrpirates.wiki/downloads/vrp.upload.config
+11:07:17.375 AM (UTC): [INFO] [SideloaderRCLONE.updateUploadConfig] Upload config updated successfully.
+11:07:17.378 AM (UTC): [INFO] [RCLONE.runRcloneCommand_DownloadConfig] Running Rclone command: listremotes --config vrp.download.config
+11:07:17.457 AM (UTC): [INFO] [MainForm.initMirrors] Loaded following mirrors: 
+11:07:17.652 AM (UTC): [INFO] [SideloaderRCLONE.UpdateMetadataFromPublic] Downloading Metadata
+11:07:17.653 AM (UTC): [INFO] [RCLONE.runRcloneCommand_PublicConfig] Running Rclone command: sync ":http:/meta.7z" "CurrentDirectory"
+11:07:17.893 AM (UTC): [ERROR] [RCLONE.runRcloneCommand_PublicConfig] Rclone error: 2024/09/15 18:07:17 NOTICE: Config file "C:\\Users\\Duy\\AppData\\Roaming\\rclone\\rclone.conf" not found - using defaults
+
+
+
+11:07:17.895 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Extracting Metadata
+11:07:17.896 AM (UTC): [INFO] [Zip.DoExtract] Extract: 7z x "F:\Quest 2\rookie_2.19_portable\meta.7z" -y -o"F:\Quest 2\rookie_2.19_portable\meta" -bsp1
+11:07:22.791 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Updating Metadata
+11:07:23.361 AM (UTC): [INFO] [SideloaderRCLONE.ProcessMetadataFromPublic] Initializing Games List
+11:07:23.413 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command: devices
+11:07:23.436 AM (UTC): [INFO] [ADB.RunAdbCommandToString] List of devices attached
+1WMHHB69C22121	device
+
+
+
+11:07:23.516 AM (UTC): [INFO] [<CheckForDevice>d__41.MoveNext] Devices:
+11:07:23.518 AM (UTC): [INFO] [<CheckForDevice>d__41.MoveNext] 1WMHHB69C22121
+
+11:07:23.531 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command:  -s 1WMHHB69C22121 shell df
+11:07:23.594 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 500000
+  Max charging voltage: 5000000
+  Charge counter: 3453774
+  status: 4
+  health: 2
+  present: true
+  level: 91
+  scale: 100
+  voltage: 4110
+  temperature: 452
+  technology: Li-ion
+
+
+11:07:23.682 AM (UTC): [INFO] [ADB.RunAdbCommandToString] Running command:  -s 1WMHHB69C22121 shell df
+11:09:02.341 AM (UTC): [INFO] [<downloadInstallGameButton_Click>d__109.MoveNext] Starting Game Download
+11:09:04.611 AM (UTC): [INFO] [<downloadInstallGameButton_Click>d__109.MoveNext] rclone copy "Public:Quest Games/BONELAB v2974+1.2974.57485 -VRP"
+11:09:04.612 AM (UTC): [INFO] [RCLONE.runRcloneCommand_PublicConfig] Running Rclone command: copy ":http:/040fa199206aa0582b559e3418121b0a/" "CurrentDirectory\040fa199206aa0582b559e3418121b0a" --transfers 1 --multi-thread-streams 0 --progress --rc --check-first --fast-list
+11:15:20.025 AM (UTC): [ERROR] [RCLONE.runRcloneCommand_PublicConfig] Rclone error: 2024/09/15 18:09:04 NOTICE: Serving remote control on http://127.0.0.1:5572/
+2024/09/15 18:09:04 NOTICE: Config file "C:\\Users\\Duy\\AppData\\Roaming\\rclone\\rclone.conf" not found - using defaults
+
+
+
+11:15:20.025 AM (UTC): [INFO] [RCLONE.runRcloneCommand_PublicConfig] Rclone Output: Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         2.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         3.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         3.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         4.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         4.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         5.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         5.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         6.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         6.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         7.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         7.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         8.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         8.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         9.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         9.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:        10.0sTransferred:   	          0 B / 4.892 GiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 12, 0%
+Elapsed time:        10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: transferringTransferred:   	          0 B / 4.892 GiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 12, 0%
+Elapsed time:        11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: transferringTransferred:   	     1020 KiB / 5.381 GiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 12, 0%
+Elapsed time:        11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  0% /500Mi, 0/s, -Transferred:   	    1.996 MiB / 5.381 GiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 12, 0%
+Elapsed time:        12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  0% /500Mi, 0/s, -Transferred:   	    4.996 MiB / 5.381 GiB, 0%, 1023.522 KiB/s, ETA 1h31m47s
+Transferred:            0 / 12, 0%
+Elapsed time:        12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  0% /500Mi, 2.966Mi/s, 2m46sTransferred:   	    8.996 MiB / 5.381 GiB, 0%, 1023.522 KiB/s, ETA 1h31m43s
+Transferred:            0 / 12, 0%
+Elapsed time:        13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  1% /500Mi, 2.966Mi/s, 2m45sTransferred:   	   12.996 MiB / 5.381 GiB, 0%, 2.989 MiB/s, ETA 30m39s
+Transferred:            0 / 12, 0%
+Elapsed time:        13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  2% /500Mi, 4.514Mi/s, 1m47sTransferred:   	   17.996 MiB / 5.381 GiB, 0%, 2.989 MiB/s, ETA 30m37s
+Transferred:            0 / 12, 0%
+Elapsed time:        14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  3% /500Mi, 4.514Mi/s, 1m46sTransferred:   	   22.996 MiB / 5.381 GiB, 0%, 4.487 MiB/s, ETA 20m22s
+Transferred:            0 / 12, 0%
+Elapsed time:        14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  4% /500Mi, 5.990Mi/s, 1m19sTransferred:   	   26.996 MiB / 5.381 GiB, 0%, 4.487 MiB/s, ETA 20m21s
+Transferred:            0 / 12, 0%
+Elapsed time:        15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  5% /500Mi, 5.990Mi/s, 1m18sTransferred:   	   32.996 MiB / 5.381 GiB, 1%, 5.581 MiB/s, ETA 16m21s
+Transferred:            0 / 12, 0%
+Elapsed time:        15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  6% /500Mi, 6.999Mi/s, 1m6sTransferred:   	   35.996 MiB / 5.381 GiB, 1%, 5.581 MiB/s, ETA 16m20s
+Transferred:            0 / 12, 0%
+Elapsed time:        16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  7% /500Mi, 6.999Mi/s, 1m6sTransferred:   	   38.996 MiB / 5.381 GiB, 1%, 5.987 MiB/s, ETA 15m13s
+Transferred:            0 / 12, 0%
+Elapsed time:        16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  7% /500Mi, 7.202Mi/s, 1m4sTransferred:   	   40.996 MiB / 5.381 GiB, 1%, 5.987 MiB/s, ETA 15m13s
+Transferred:            0 / 12, 0%
+Elapsed time:        17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  8% /500Mi, 7.202Mi/s, 1m3sTransferred:   	   44.996 MiB / 5.381 GiB, 1%, 5.992 MiB/s, ETA 15m12s
+Transferred:            0 / 12, 0%
+Elapsed time:        17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  8% /500Mi, 7.002Mi/s, 1m4sTransferred:   	   48.996 MiB / 5.381 GiB, 1%, 5.992 MiB/s, ETA 15m11s
+Transferred:            0 / 12, 0%
+Elapsed time:        18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001:  9% /500Mi, 7.002Mi/s, 1m4sTransferred:   	   51.996 MiB / 5.381 GiB, 1%, 6.122 MiB/s, ETA 14m51s
+Transferred:            0 / 12, 0%
+Elapsed time:        18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 10% /500Mi, 7.001Mi/s, 1m3sTransferred:   	   56.996 MiB / 5.381 GiB, 1%, 6.122 MiB/s, ETA 14m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 11% /500Mi, 7.001Mi/s, 1m3sTransferred:   	   62.996 MiB / 5.381 GiB, 1%, 6.331 MiB/s, ETA 14m20s
+Transferred:            0 / 12, 0%
+Elapsed time:        19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 12% /500Mi, 7.119Mi/s, 1m1sTransferred:   	   66.996 MiB / 5.381 GiB, 1%, 6.331 MiB/s, ETA 14m19s
+Transferred:            0 / 12, 0%
+Elapsed time:        20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 13% /500Mi, 7.119Mi/s, 1m0sTransferred:   	   70.996 MiB / 5.381 GiB, 1%, 6.797 MiB/s, ETA 13m20s
+Transferred:            0 / 12, 0%
+Elapsed time:        20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 14% /500Mi, 7.560Mi/s, 56sTransferred:   	   74.996 MiB / 5.381 GiB, 1%, 6.797 MiB/s, ETA 13m19s
+Transferred:            0 / 12, 0%
+Elapsed time:        21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 14% /500Mi, 7.560Mi/s, 56sTransferred:   	   79.996 MiB / 5.381 GiB, 1%, 6.807 MiB/s, ETA 13m17s
+Transferred:            0 / 12, 0%
+Elapsed time:        21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 15% /500Mi, 7.499Mi/s, 56sTransferred:   	   83.996 MiB / 5.381 GiB, 2%, 6.807 MiB/s, ETA 13m17s
+Transferred:            0 / 12, 0%
+Elapsed time:        22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 16% /500Mi, 7.499Mi/s, 55sTransferred:   	   88.996 MiB / 5.381 GiB, 2%, 7.079 MiB/s, ETA 12m45s
+Transferred:            0 / 12, 0%
+Elapsed time:        22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 17% /500Mi, 7.733Mi/s, 53sTransferred:   	   91.996 MiB / 5.381 GiB, 2%, 7.079 MiB/s, ETA 12m45s
+Transferred:            0 / 12, 0%
+Elapsed time:        23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 18% /500Mi, 7.733Mi/s, 52sTransferred:   	   95.996 MiB / 5.381 GiB, 2%, 7.154 MiB/s, ETA 12m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 19% /500Mi, 7.755Mi/s, 52sTransferred:   	   98.996 MiB / 5.381 GiB, 2%, 7.154 MiB/s, ETA 12m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 19% /500Mi, 7.755Mi/s, 51sTransferred:   	  102.996 MiB / 5.381 GiB, 2%, 7.143 MiB/s, ETA 12m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 20% /500Mi, 7.697Mi/s, 51sTransferred:   	  105.996 MiB / 5.381 GiB, 2%, 7.143 MiB/s, ETA 12m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 21% /500Mi, 7.697Mi/s, 51sTransferred:   	  107.996 MiB / 5.381 GiB, 2%, 7.132 MiB/s, ETA 12m37s
+Transferred:            0 / 12, 0%
+Elapsed time:        25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 21% /500Mi, 7.648Mi/s, 51sTransferred:   	  110.996 MiB / 5.381 GiB, 2%, 7.132 MiB/s, ETA 12m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 22% /500Mi, 7.648Mi/s, 50sTransferred:   	  115.996 MiB / 5.381 GiB, 2%, 6.997 MiB/s, ETA 12m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 23% /500Mi, 7.470Mi/s, 51sTransferred:   	  120.996 MiB / 5.381 GiB, 2%, 6.997 MiB/s, ETA 12m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 24% /500Mi, 7.470Mi/s, 50sTransferred:   	  125.996 MiB / 5.381 GiB, 2%, 7.128 MiB/s, ETA 12m35s
+Transferred:            0 / 12, 0%
+Elapsed time:        27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 25% /500Mi, 7.567Mi/s, 49sTransferred:   	  130.996 MiB / 5.381 GiB, 2%, 7.128 MiB/s, ETA 12m34s
+Transferred:            0 / 12, 0%
+Elapsed time:        28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 26% /500Mi, 7.567Mi/s, 48sTransferred:   	  135.996 MiB / 5.381 GiB, 2%, 7.305 MiB/s, ETA 12m15s
+Transferred:            0 / 12, 0%
+Elapsed time:        28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 27% /500Mi, 7.712Mi/s, 47sTransferred:   	  139.996 MiB / 5.381 GiB, 3%, 7.305 MiB/s, ETA 12m15s
+Transferred:            0 / 12, 0%
+Elapsed time:        29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 27% /500Mi, 7.712Mi/s, 46sTransferred:   	  143.996 MiB / 5.381 GiB, 3%, 7.476 MiB/s, ETA 11m57s
+Transferred:            0 / 12, 0%
+Elapsed time:        29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 28% /500Mi, 7.862Mi/s, 45sTransferred:   	  147.996 MiB / 5.381 GiB, 3%, 7.476 MiB/s, ETA 11m57s
+Transferred:            0 / 12, 0%
+Elapsed time:        30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 29% /500Mi, 7.862Mi/s, 44sTransferred:   	  151.996 MiB / 5.381 GiB, 3%, 7.508 MiB/s, ETA 11m53s
+Transferred:            0 / 12, 0%
+Elapsed time:        30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 30% /500Mi, 7.865Mi/s, 44sTransferred:   	  155.996 MiB / 5.381 GiB, 3%, 7.508 MiB/s, ETA 11m53s
+Transferred:            0 / 12, 0%
+Elapsed time:        31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 31% /500Mi, 7.865Mi/s, 43sTransferred:   	  158.996 MiB / 5.381 GiB, 3%, 7.476 MiB/s, ETA 11m55s
+Transferred:            0 / 12, 0%
+Elapsed time:        31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 31% /500Mi, 7.812Mi/s, 43sTransferred:   	  161.996 MiB / 5.381 GiB, 3%, 7.476 MiB/s, ETA 11m55s
+Transferred:            0 / 12, 0%
+Elapsed time:        32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 32% /500Mi, 7.812Mi/s, 43sTransferred:   	  165.996 MiB / 5.381 GiB, 3%, 7.380 MiB/s, ETA 12m4s
+Transferred:            0 / 12, 0%
+Elapsed time:        32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 33% /500Mi, 7.701Mi/s, 43sTransferred:   	  167.996 MiB / 5.381 GiB, 3%, 7.380 MiB/s, ETA 12m3s
+Transferred:            0 / 12, 0%
+Elapsed time:        33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 33% /500Mi, 7.701Mi/s, 43sTransferred:   	  171.996 MiB / 5.381 GiB, 3%, 7.361 MiB/s, ETA 12m5s
+Transferred:            0 / 12, 0%
+Elapsed time:        33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 34% /500Mi, 7.658Mi/s, 42sTransferred:   	  176.996 MiB / 5.381 GiB, 3%, 7.361 MiB/s, ETA 12m4s
+Transferred:            0 / 12, 0%
+Elapsed time:        34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 35% /500Mi, 7.658Mi/s, 42sTransferred:   	  180.996 MiB / 5.381 GiB, 3%, 7.463 MiB/s, ETA 11m54s
+Transferred:            0 / 12, 0%
+Elapsed time:        34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 36% /500Mi, 7.743Mi/s, 41sTransferred:   	  184.996 MiB / 5.381 GiB, 3%, 7.463 MiB/s, ETA 11m53s
+Transferred:            0 / 12, 0%
+Elapsed time:        35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 36% /500Mi, 7.743Mi/s, 40sTransferred:   	  188.996 MiB / 5.381 GiB, 3%, 7.434 MiB/s, ETA 11m55s
+Transferred:            0 / 12, 0%
+Elapsed time:        35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 37% /500Mi, 7.758Mi/s, 40sTransferred:   	  191.996 MiB / 5.381 GiB, 3%, 7.434 MiB/s, ETA 11m55s
+Transferred:            0 / 12, 0%
+Elapsed time:        36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 38% /500Mi, 7.758Mi/s, 39sTransferred:   	  194.996 MiB / 5.381 GiB, 4%, 7.403 MiB/s, ETA 11m57s
+Transferred:            0 / 12, 0%
+Elapsed time:        36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 38% /500Mi, 7.648Mi/s, 39sTransferred:   	  199.996 MiB / 5.381 GiB, 4%, 7.403 MiB/s, ETA 11m57s
+Transferred:            0 / 12, 0%
+Elapsed time:        37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 39% /500Mi, 7.648Mi/s, 39sTransferred:   	  203.996 MiB / 5.381 GiB, 4%, 7.440 MiB/s, ETA 11m53s
+Transferred:            0 / 12, 0%
+Elapsed time:        37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 40% /500Mi, 7.669Mi/s, 38sTransferred:   	  209.996 MiB / 5.381 GiB, 4%, 7.440 MiB/s, ETA 11m52s
+Transferred:            0 / 12, 0%
+Elapsed time:        38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 41% /500Mi, 7.669Mi/s, 37sTransferred:   	  214.996 MiB / 5.381 GiB, 4%, 7.607 MiB/s, ETA 11m36s
+Transferred:            0 / 12, 0%
+Elapsed time:        38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 42% /500Mi, 7.818Mi/s, 36sTransferred:   	  219.996 MiB / 5.381 GiB, 4%, 7.607 MiB/s, ETA 11m35s
+Transferred:            0 / 12, 0%
+Elapsed time:        39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 43% /500Mi, 7.818Mi/s, 35sTransferred:   	  224.996 MiB / 5.381 GiB, 4%, 7.818 MiB/s, ETA 11m15s
+Transferred:            0 / 12, 0%
+Elapsed time:        39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 44% /500Mi, 8.016Mi/s, 34sTransferred:   	  229.996 MiB / 5.381 GiB, 4%, 7.818 MiB/s, ETA 11m15s
+Transferred:            0 / 12, 0%
+Elapsed time:        40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 45% /500Mi, 8.016Mi/s, 33sTransferred:   	  234.996 MiB / 5.381 GiB, 4%, 7.950 MiB/s, ETA 11m3s
+Transferred:            0 / 12, 0%
+Elapsed time:        40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 46% /500Mi, 8.139Mi/s, 32sTransferred:   	  239.996 MiB / 5.381 GiB, 4%, 7.950 MiB/s, ETA 11m2s
+Transferred:            0 / 12, 0%
+Elapsed time:        41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 47% /500Mi, 8.139Mi/s, 31sTransferred:   	  243.996 MiB / 5.381 GiB, 4%, 8.080 MiB/s, ETA 10m51s
+Transferred:            0 / 12, 0%
+Elapsed time:        41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 48% /500Mi, 8.253Mi/s, 31sTransferred:   	  247.996 MiB / 5.381 GiB, 5%, 8.080 MiB/s, ETA 10m51s
+Transferred:            0 / 12, 0%
+Elapsed time:        42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 49% /500Mi, 8.253Mi/s, 30sTransferred:   	  251.996 MiB / 5.381 GiB, 5%, 8.077 MiB/s, ETA 10m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 50% /500Mi, 8.240Mi/s, 30sTransferred:   	  255.996 MiB / 5.381 GiB, 5%, 8.077 MiB/s, ETA 10m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 51% /500Mi, 8.240Mi/s, 29sTransferred:   	  260.996 MiB / 5.381 GiB, 5%, 8.010 MiB/s, ETA 10m55s
+Transferred:            0 / 12, 0%
+Elapsed time:        43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 52% /500Mi, 8.162Mi/s, 29sTransferred:   	  265.996 MiB / 5.381 GiB, 5%, 8.010 MiB/s, ETA 10m54s
+Transferred:            0 / 12, 0%
+Elapsed time:        44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 53% /500Mi, 8.162Mi/s, 28sTransferred:   	  270.996 MiB / 5.381 GiB, 5%, 8.132 MiB/s, ETA 10m44s
+Transferred:            0 / 12, 0%
+Elapsed time:        44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 54% /500Mi, 8.277Mi/s, 27sTransferred:   	  275.996 MiB / 5.381 GiB, 5%, 8.132 MiB/s, ETA 10m43s
+Transferred:            0 / 12, 0%
+Elapsed time:        45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 55% /500Mi, 8.277Mi/s, 27sTransferred:   	  280.996 MiB / 5.381 GiB, 5%, 8.250 MiB/s, ETA 10m33s
+Transferred:            0 / 12, 0%
+Elapsed time:        45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 56% /500Mi, 8.385Mi/s, 26sTransferred:   	  284.996 MiB / 5.381 GiB, 5%, 8.250 MiB/s, ETA 10m33s
+Transferred:            0 / 12, 0%
+Elapsed time:        46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 56% /500Mi, 8.385Mi/s, 25sTransferred:   	  288.996 MiB / 5.381 GiB, 5%, 8.294 MiB/s, ETA 10m29s
+Transferred:            0 / 12, 0%
+Elapsed time:        46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 57% /500Mi, 8.423Mi/s, 25sTransferred:   	  292.996 MiB / 5.381 GiB, 5%, 8.294 MiB/s, ETA 10m28s
+Transferred:            0 / 12, 0%
+Elapsed time:        47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 58% /500Mi, 8.423Mi/s, 24sTransferred:   	  296.996 MiB / 5.381 GiB, 5%, 8.278 MiB/s, ETA 10m29s
+Transferred:            0 / 12, 0%
+Elapsed time:        47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 59% /500Mi, 8.397Mi/s, 24sTransferred:   	  301.996 MiB / 5.381 GiB, 5%, 8.278 MiB/s, ETA 10m29s
+Transferred:            0 / 12, 0%
+Elapsed time:        48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 60% /500Mi, 8.397Mi/s, 23sTransferred:   	  305.996 MiB / 5.381 GiB, 6%, 8.322 MiB/s, ETA 10m25s
+Transferred:            0 / 12, 0%
+Elapsed time:        48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 61% /500Mi, 8.427Mi/s, 23sTransferred:   	  308.996 MiB / 5.381 GiB, 6%, 8.322 MiB/s, ETA 10m24s
+Transferred:            0 / 12, 0%
+Elapsed time:        49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 61% /500Mi, 8.427Mi/s, 22sTransferred:   	  311.996 MiB / 5.381 GiB, 6%, 8.303 MiB/s, ETA 10m26s
+Transferred:            0 / 12, 0%
+Elapsed time:        49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 62% /500Mi, 8.408Mi/s, 22sTransferred:   	  313.996 MiB / 5.381 GiB, 6%, 8.303 MiB/s, ETA 10m25s
+Transferred:            0 / 12, 0%
+Elapsed time:        50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 62% /500Mi, 8.408Mi/s, 22sTransferred:   	  316.996 MiB / 5.381 GiB, 6%, 8.096 MiB/s, ETA 10m41s
+Transferred:            0 / 12, 0%
+Elapsed time:        50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 63% /500Mi, 8.190Mi/s, 22sTransferred:   	  319.996 MiB / 5.381 GiB, 6%, 8.096 MiB/s, ETA 10m41s
+Transferred:            0 / 12, 0%
+Elapsed time:        51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 63% /500Mi, 8.190Mi/s, 21sTransferred:   	  323.996 MiB / 5.381 GiB, 6%, 7.967 MiB/s, ETA 10m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 64% /500Mi, 8.055Mi/s, 21sTransferred:   	  326.996 MiB / 5.381 GiB, 6%, 7.967 MiB/s, ETA 10m50s
+Transferred:            0 / 12, 0%
+Elapsed time:        52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 65% /500Mi, 8.055Mi/s, 21sTransferred:   	  329.996 MiB / 5.381 GiB, 6%, 7.839 MiB/s, ETA 11m
+Transferred:            0 / 12, 0%
+Elapsed time:        52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 65% /500Mi, 7.928Mi/s, 21sTransferred:   	  334.996 MiB / 5.381 GiB, 6%, 7.839 MiB/s, ETA 11m
+Transferred:            0 / 12, 0%
+Elapsed time:        53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 66% /500Mi, 7.928Mi/s, 20sTransferred:   	  339.996 MiB / 5.381 GiB, 6%, 7.855 MiB/s, ETA 10m58s
+Transferred:            0 / 12, 0%
+Elapsed time:        53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 67% /500Mi, 7.935Mi/s, 20sTransferred:   	  344.996 MiB / 5.381 GiB, 6%, 7.855 MiB/s, ETA 10m57s
+Transferred:            0 / 12, 0%
+Elapsed time:        54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 68% /500Mi, 7.935Mi/s, 19sTransferred:   	  349.996 MiB / 5.381 GiB, 6%, 7.989 MiB/s, ETA 10m45s
+Transferred:            0 / 12, 0%
+Elapsed time:        54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 69% /500Mi, 8.057Mi/s, 18sTransferred:   	  354.996 MiB / 5.381 GiB, 6%, 7.989 MiB/s, ETA 10m45s
+Transferred:            0 / 12, 0%
+Elapsed time:        55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 70% /500Mi, 8.057Mi/s, 17sTransferred:   	  359.996 MiB / 5.381 GiB, 7%, 8.112 MiB/s, ETA 10m34s
+Transferred:            0 / 12, 0%
+Elapsed time:        55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 71% /500Mi, 8.178Mi/s, 17sTransferred:   	  364.996 MiB / 5.381 GiB, 7%, 8.112 MiB/s, ETA 10m34s
+Transferred:            0 / 12, 0%
+Elapsed time:        56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 72% /500Mi, 8.178Mi/s, 16sTransferred:   	  369.996 MiB / 5.381 GiB, 7%, 8.295 MiB/s, ETA 10m19s
+Transferred:            0 / 12, 0%
+Elapsed time:        56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 73% /500Mi, 8.363Mi/s, 15sTransferred:   	  374.996 MiB / 5.381 GiB, 7%, 8.295 MiB/s, ETA 10m19s
+Transferred:            0 / 12, 0%
+Elapsed time:        57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 74% /500Mi, 8.363Mi/s, 14sTransferred:   	  379.996 MiB / 5.381 GiB, 7%, 8.340 MiB/s, ETA 10m15s
+Transferred:            0 / 12, 0%
+Elapsed time:        57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 75% /500Mi, 8.402Mi/s, 14sTransferred:   	  383.996 MiB / 5.381 GiB, 7%, 8.340 MiB/s, ETA 10m14s
+Transferred:            0 / 12, 0%
+Elapsed time:        58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 76% /500Mi, 8.402Mi/s, 13sTransferred:   	  389.996 MiB / 5.381 GiB, 7%, 8.444 MiB/s, ETA 10m6s
+Transferred:            0 / 12, 0%
+Elapsed time:        58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 77% /500Mi, 8.502Mi/s, 12sTransferred:   	  394.996 MiB / 5.381 GiB, 7%, 8.444 MiB/s, ETA 10m5s
+Transferred:            0 / 12, 0%
+Elapsed time:        59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 78% /500Mi, 8.502Mi/s, 12sTransferred:   	  399.996 MiB / 5.381 GiB, 7%, 8.540 MiB/s, ETA 9m58s
+Transferred:            0 / 12, 0%
+Elapsed time:        59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 79% /500Mi, 8.596Mi/s, 11sTransferred:   	  403.996 MiB / 5.381 GiB, 7%, 8.540 MiB/s, ETA 9m57s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 80% /500Mi, 8.596Mi/s, 11sTransferred:   	  409.996 MiB / 5.381 GiB, 7%, 8.630 MiB/s, ETA 9m50s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 81% /500Mi, 8.684Mi/s, 10sTransferred:   	  414.996 MiB / 5.381 GiB, 8%, 8.630 MiB/s, ETA 9m50s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 82% /500Mi, 8.684Mi/s, 9sTransferred:   	  419.996 MiB / 5.381 GiB, 8%, 8.717 MiB/s, ETA 9m43s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 83% /500Mi, 8.761Mi/s, 9sTransferred:   	  424.996 MiB / 5.381 GiB, 8%, 8.717 MiB/s, ETA 9m43s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 84% /500Mi, 8.761Mi/s, 8sTransferred:   	  429.996 MiB / 5.381 GiB, 8%, 8.793 MiB/s, ETA 9m37s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 85% /500Mi, 8.844Mi/s, 7sTransferred:   	  434.996 MiB / 5.381 GiB, 8%, 8.793 MiB/s, ETA 9m37s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 86% /500Mi, 8.844Mi/s, 7sTransferred:   	  438.996 MiB / 5.381 GiB, 8%, 8.936 MiB/s, ETA 9m27s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 87% /500Mi, 8.978Mi/s, 6sTransferred:   	  443.996 MiB / 5.381 GiB, 8%, 8.936 MiB/s, ETA 9m26s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 88% /500Mi, 8.978Mi/s, 6sTransferred:   	  448.996 MiB / 5.381 GiB, 8%, 8.940 MiB/s, ETA 9m26s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 89% /500Mi, 8.972Mi/s, 5sTransferred:   	  453.996 MiB / 5.381 GiB, 8%, 8.940 MiB/s, ETA 9m25s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 90% /500Mi, 8.972Mi/s, 5sTransferred:   	  458.996 MiB / 5.381 GiB, 8%, 9.001 MiB/s, ETA 9m21s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 91% /500Mi, 9.043Mi/s, 4sTransferred:   	  463.996 MiB / 5.381 GiB, 8%, 9.001 MiB/s, ETA 9m20s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 92% /500Mi, 9.043Mi/s, 3sTransferred:   	  466.996 MiB / 5.381 GiB, 8%, 9.069 MiB/s, ETA 9m16s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 93% /500Mi, 9.105Mi/s, 3sTransferred:   	  471.996 MiB / 5.381 GiB, 9%, 9.069 MiB/s, ETA 9m15s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 94% /500Mi, 9.105Mi/s, 3sTransferred:   	  476.996 MiB / 5.381 GiB, 9%, 8.940 MiB/s, ETA 9m22s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 95% /500Mi, 8.973Mi/s, 2sTransferred:   	  481.996 MiB / 5.381 GiB, 9%, 8.940 MiB/s, ETA 9m22s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 96% /500Mi, 8.973Mi/s, 2sTransferred:   	  486.996 MiB / 5.381 GiB, 9%, 9.062 MiB/s, ETA 9m14s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 97% /500Mi, 9.098Mi/s, 1sTransferred:   	  492.996 MiB / 5.381 GiB, 9%, 9.062 MiB/s, ETA 9m13s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 98% /500Mi, 9.098Mi/s, 0sTransferred:   	  496.996 MiB / 5.381 GiB, 9%, 9.126 MiB/s, ETA 9m9s
+Transferred:            0 / 12, 0%
+Elapsed time:       1m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.001: 99% /500Mi, 9.156Mi/s, 0sTransferred:   	  501.996 MiB / 5.381 GiB, 9%, 9.126 MiB/s, ETA 9m8s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  0% /500Mi, 0/s, -Transferred:   	  506.996 MiB / 5.381 GiB, 9%, 9.181 MiB/s, ETA 9m4s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  1% /500Mi, 0/s, -Transferred:   	  511.996 MiB / 5.381 GiB, 9%, 9.181 MiB/s, ETA 9m4s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  2% /500Mi, 8.983Mi/s, 54sTransferred:   	  515.996 MiB / 5.381 GiB, 9%, 9.232 MiB/s, ETA 9m
+Transferred:            1 / 12, 8%
+Elapsed time:      1m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  3% /500Mi, 8.983Mi/s, 53sTransferred:   	  521.996 MiB / 5.381 GiB, 9%, 9.232 MiB/s, ETA 9m
+Transferred:            1 / 12, 8%
+Elapsed time:      1m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  4% /500Mi, 9.496Mi/s, 50sTransferred:   	  525.996 MiB / 5.381 GiB, 10%, 9.217 MiB/s, ETA 9m
+Transferred:            1 / 12, 8%
+Elapsed time:      1m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  5% /500Mi, 9.496Mi/s, 49sTransferred:   	  530.996 MiB / 5.381 GiB, 10%, 9.217 MiB/s, ETA 9m
+Transferred:            1 / 12, 8%
+Elapsed time:      1m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  6% /500Mi, 9.633Mi/s, 48sTransferred:   	  536.996 MiB / 5.381 GiB, 10%, 9.267 MiB/s, ETA 8m56s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  7% /500Mi, 9.633Mi/s, 48sTransferred:   	  541.996 MiB / 5.381 GiB, 10%, 9.267 MiB/s, ETA 8m56s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  8% /500Mi, 9.748Mi/s, 46sTransferred:   	  546.996 MiB / 5.381 GiB, 10%, 9.306 MiB/s, ETA 8m53s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002:  9% /500Mi, 9.748Mi/s, 46sTransferred:   	  551.996 MiB / 5.381 GiB, 10%, 9.306 MiB/s, ETA 8m52s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 10% /500Mi, 9.979Mi/s, 44sTransferred:   	  556.996 MiB / 5.381 GiB, 10%, 9.419 MiB/s, ETA 8m45s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 11% /500Mi, 9.979Mi/s, 44sTransferred:   	  561.996 MiB / 5.381 GiB, 10%, 9.419 MiB/s, ETA 8m45s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 12% /500Mi, 9.997Mi/s, 43sTransferred:   	  567.996 MiB / 5.381 GiB, 10%, 9.455 MiB/s, ETA 8m42s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 13% /500Mi, 9.997Mi/s, 43sTransferred:   	  572.996 MiB / 5.381 GiB, 10%, 9.455 MiB/s, ETA 8m42s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 14% /500Mi, 9.998Mi/s, 42sTransferred:   	  577.996 MiB / 5.381 GiB, 10%, 9.489 MiB/s, ETA 8m39s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 15% /500Mi, 9.998Mi/s, 42sTransferred:   	  581.996 MiB / 5.381 GiB, 11%, 9.489 MiB/s, ETA 8m39s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 16% /500Mi, 9.996Mi/s, 41sTransferred:   	  585.996 MiB / 5.381 GiB, 11%, 9.459 MiB/s, ETA 8m40s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 17% /500Mi, 9.996Mi/s, 41sTransferred:   	  590.996 MiB / 5.381 GiB, 11%, 9.459 MiB/s, ETA 8m40s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 18% /500Mi, 9.775Mi/s, 41sTransferred:   	  595.996 MiB / 5.381 GiB, 11%, 9.429 MiB/s, ETA 8m41s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 19% /500Mi, 9.775Mi/s, 41sTransferred:   	  600.996 MiB / 5.381 GiB, 11%, 9.429 MiB/s, ETA 8m40s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 20% /500Mi, 9.894Mi/s, 40sTransferred:   	  605.996 MiB / 5.381 GiB, 11%, 9.523 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 21% /500Mi, 9.894Mi/s, 39sTransferred:   	  610.996 MiB / 5.381 GiB, 11%, 9.523 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 22% /500Mi, 9.908Mi/s, 39sTransferred:   	  615.996 MiB / 5.381 GiB, 11%, 9.558 MiB/s, ETA 8m32s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 23% /500Mi, 9.908Mi/s, 38sTransferred:   	  621.996 MiB / 5.381 GiB, 11%, 9.558 MiB/s, ETA 8m31s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 24% /500Mi, 9.908Mi/s, 38sTransferred:   	  625.996 MiB / 5.381 GiB, 11%, 9.585 MiB/s, ETA 8m29s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 25% /500Mi, 9.908Mi/s, 37sTransferred:   	  628.996 MiB / 5.381 GiB, 11%, 9.585 MiB/s, ETA 8m29s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 25% /500Mi, 9.921Mi/s, 37sTransferred:   	  633.996 MiB / 5.381 GiB, 12%, 9.486 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 26% /500Mi, 9.921Mi/s, 36sTransferred:   	  637.996 MiB / 5.381 GiB, 12%, 9.486 MiB/s, ETA 8m33s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 27% /500Mi, 9.641Mi/s, 37sTransferred:   	  641.996 MiB / 5.381 GiB, 12%, 9.456 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 28% /500Mi, 9.641Mi/s, 37sTransferred:   	  646.996 MiB / 5.381 GiB, 12%, 9.456 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 29% /500Mi, 9.599Mi/s, 36sTransferred:   	  650.996 MiB / 5.381 GiB, 12%, 9.424 MiB/s, ETA 8m35s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 30% /500Mi, 9.599Mi/s, 36sTransferred:   	  654.996 MiB / 5.381 GiB, 12%, 9.424 MiB/s, ETA 8m35s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 30% /500Mi, 9.498Mi/s, 36sTransferred:   	  657.996 MiB / 5.381 GiB, 12%, 9.271 MiB/s, ETA 8m43s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 31% /500Mi, 9.498Mi/s, 36sTransferred:   	  661.996 MiB / 5.381 GiB, 12%, 9.271 MiB/s, ETA 8m42s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 32% /500Mi, 9.399Mi/s, 35sTransferred:   	  665.996 MiB / 5.381 GiB, 12%, 9.134 MiB/s, ETA 8m50s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 33% /500Mi, 9.399Mi/s, 35sTransferred:   	  669.996 MiB / 5.381 GiB, 12%, 9.134 MiB/s, ETA 8m49s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 33% /500Mi, 9.252Mi/s, 35sTransferred:   	  672.996 MiB / 5.381 GiB, 12%, 9.062 MiB/s, ETA 8m53s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 34% /500Mi, 9.252Mi/s, 35sTransferred:   	  677.996 MiB / 5.381 GiB, 12%, 9.062 MiB/s, ETA 8m53s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 35% /500Mi, 9.234Mi/s, 34sTransferred:   	  682.996 MiB / 5.381 GiB, 12%, 9.059 MiB/s, ETA 8m52s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 36% /500Mi, 9.234Mi/s, 34sTransferred:   	  687.996 MiB / 5.381 GiB, 12%, 9.059 MiB/s, ETA 8m52s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 37% /500Mi, 9.285Mi/s, 33sTransferred:   	  691.996 MiB / 5.381 GiB, 13%, 9.115 MiB/s, ETA 8m48s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 38% /500Mi, 9.285Mi/s, 33sTransferred:   	  695.996 MiB / 5.381 GiB, 13%, 9.115 MiB/s, ETA 8m48s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 39% /500Mi, 9.143Mi/s, 33sTransferred:   	  698.996 MiB / 5.381 GiB, 13%, 8.984 MiB/s, ETA 8m55s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 39% /500Mi, 9.143Mi/s, 32sTransferred:   	  702.996 MiB / 5.381 GiB, 13%, 8.984 MiB/s, ETA 8m55s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 40% /500Mi, 9.008Mi/s, 32sTransferred:   	  706.996 MiB / 5.381 GiB, 13%, 8.923 MiB/s, ETA 8m58s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 41% /500Mi, 9.008Mi/s, 32sTransferred:   	  712.996 MiB / 5.381 GiB, 13%, 8.923 MiB/s, ETA 8m57s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 42% /500Mi, 9.072Mi/s, 31sTransferred:   	  717.996 MiB / 5.381 GiB, 13%, 8.927 MiB/s, ETA 8m56s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 43% /500Mi, 9.072Mi/s, 31sTransferred:   	  721.996 MiB / 5.381 GiB, 13%, 8.927 MiB/s, ETA 8m56s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 44% /500Mi, 9.132Mi/s, 30sTransferred:   	  726.996 MiB / 5.381 GiB, 13%, 8.995 MiB/s, ETA 8m51s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 45% /500Mi, 9.132Mi/s, 29sTransferred:   	  730.996 MiB / 5.381 GiB, 13%, 8.995 MiB/s, ETA 8m51s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 46% /500Mi, 9.122Mi/s, 29sTransferred:   	  735.996 MiB / 5.381 GiB, 13%, 8.932 MiB/s, ETA 8m54s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 47% /500Mi, 9.122Mi/s, 28sTransferred:   	  740.996 MiB / 5.381 GiB, 13%, 8.932 MiB/s, ETA 8m53s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 48% /500Mi, 9.115Mi/s, 28sTransferred:   	  745.996 MiB / 5.381 GiB, 14%, 9.000 MiB/s, ETA 8m49s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 49% /500Mi, 9.115Mi/s, 27sTransferred:   	  749.996 MiB / 5.381 GiB, 14%, 9.000 MiB/s, ETA 8m48s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 49% /500Mi, 9.165Mi/s, 27sTransferred:   	  752.996 MiB / 5.381 GiB, 14%, 9.063 MiB/s, ETA 8m44s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 50% /500Mi, 9.165Mi/s, 26sTransferred:   	  758.996 MiB / 5.381 GiB, 14%, 9.063 MiB/s, ETA 8m44s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 51% /500Mi, 9.097Mi/s, 26sTransferred:   	  762.996 MiB / 5.381 GiB, 14%, 8.996 MiB/s, ETA 8m47s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 52% /500Mi, 9.097Mi/s, 26sTransferred:   	  768.996 MiB / 5.381 GiB, 14%, 8.996 MiB/s, ETA 8m46s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 53% /500Mi, 9.152Mi/s, 25sTransferred:   	  773.996 MiB / 5.381 GiB, 14%, 9.053 MiB/s, ETA 8m43s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 54% /500Mi, 9.152Mi/s, 24sTransferred:   	  777.996 MiB / 5.381 GiB, 14%, 9.053 MiB/s, ETA 8m42s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 55% /500Mi, 9.206Mi/s, 24sTransferred:   	  782.996 MiB / 5.381 GiB, 14%, 9.118 MiB/s, ETA 8m38s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 56% /500Mi, 9.206Mi/s, 23sTransferred:   	  788.996 MiB / 5.381 GiB, 14%, 9.118 MiB/s, ETA 8m37s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 57% /500Mi, 9.319Mi/s, 22sTransferred:   	  793.996 MiB / 5.381 GiB, 14%, 9.169 MiB/s, ETA 8m34s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 58% /500Mi, 9.319Mi/s, 22sTransferred:   	  798.996 MiB / 5.381 GiB, 15%, 9.169 MiB/s, ETA 8m33s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 59% /500Mi, 9.358Mi/s, 21sTransferred:   	  803.996 MiB / 5.381 GiB, 15%, 9.221 MiB/s, ETA 8m30s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 60% /500Mi, 9.358Mi/s, 20sTransferred:   	  807.996 MiB / 5.381 GiB, 15%, 9.221 MiB/s, ETA 8m29s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 61% /500Mi, 9.331Mi/s, 20sTransferred:   	  812.996 MiB / 5.381 GiB, 15%, 9.266 MiB/s, ETA 8m26s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 62% /500Mi, 9.331Mi/s, 20sTransferred:   	  818.996 MiB / 5.381 GiB, 15%, 9.266 MiB/s, ETA 8m26s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 63% /500Mi, 9.382Mi/s, 19sTransferred:   	  823.996 MiB / 5.381 GiB, 15%, 9.320 MiB/s, ETA 8m22s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 64% /500Mi, 9.382Mi/s, 18sTransferred:   	  828.996 MiB / 5.381 GiB, 15%, 9.320 MiB/s, ETA 8m22s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 65% /500Mi, 9.420Mi/s, 18sTransferred:   	  833.996 MiB / 5.381 GiB, 15%, 9.358 MiB/s, ETA 8m19s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 66% /500Mi, 9.420Mi/s, 17sTransferred:   	  838.996 MiB / 5.381 GiB, 15%, 9.358 MiB/s, ETA 8m19s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 67% /500Mi, 9.452Mi/s, 17sTransferred:   	  843.996 MiB / 5.381 GiB, 15%, 9.403 MiB/s, ETA 8m16s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 68% /500Mi, 9.452Mi/s, 16sTransferred:   	  848.996 MiB / 5.381 GiB, 15%, 9.403 MiB/s, ETA 8m15s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 69% /500Mi, 9.491Mi/s, 15sTransferred:   	  850.996 MiB / 5.381 GiB, 15%, 9.435 MiB/s, ETA 8m13s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 70% /500Mi, 9.491Mi/s, 15sTransferred:   	  855.996 MiB / 5.381 GiB, 16%, 9.435 MiB/s, ETA 8m13s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 71% /500Mi, 9.398Mi/s, 15sTransferred:   	  860.996 MiB / 5.381 GiB, 16%, 9.345 MiB/s, ETA 8m17s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 72% /500Mi, 9.398Mi/s, 14sTransferred:   	  865.996 MiB / 5.381 GiB, 16%, 9.345 MiB/s, ETA 8m16s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 73% /500Mi, 9.436Mi/s, 14sTransferred:   	  870.996 MiB / 5.381 GiB, 16%, 9.389 MiB/s, ETA 8m14s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 74% /500Mi, 9.436Mi/s, 13sTransferred:   	  875.996 MiB / 5.381 GiB, 16%, 9.389 MiB/s, ETA 8m13s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 75% /500Mi, 9.470Mi/s, 13sTransferred:   	  880.996 MiB / 5.381 GiB, 16%, 9.430 MiB/s, ETA 8m10s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 76% /500Mi, 9.470Mi/s, 12sTransferred:   	  885.996 MiB / 5.381 GiB, 16%, 9.430 MiB/s, ETA 8m10s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 77% /500Mi, 9.496Mi/s, 12sTransferred:   	  889.996 MiB / 5.381 GiB, 16%, 9.458 MiB/s, ETA 8m8s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 77% /500Mi, 9.496Mi/s, 11sTransferred:   	  894.996 MiB / 5.381 GiB, 16%, 9.458 MiB/s, ETA 8m7s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 78% /500Mi, 9.470Mi/s, 11sTransferred:   	  899.996 MiB / 5.381 GiB, 16%, 9.373 MiB/s, ETA 8m11s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 79% /500Mi, 9.470Mi/s, 10sTransferred:   	  904.996 MiB / 5.381 GiB, 16%, 9.373 MiB/s, ETA 8m11s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 80% /500Mi, 9.377Mi/s, 10sTransferred:   	  909.996 MiB / 5.381 GiB, 17%, 9.412 MiB/s, ETA 8m8s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 81% /500Mi, 9.377Mi/s, 9sTransferred:   	  913.996 MiB / 5.381 GiB, 17%, 9.412 MiB/s, ETA 8m8s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 82% /500Mi, 9.482Mi/s, 9sTransferred:   	  917.996 MiB / 5.381 GiB, 17%, 9.384 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 83% /500Mi, 9.482Mi/s, 8sTransferred:   	  922.996 MiB / 5.381 GiB, 17%, 9.384 MiB/s, ETA 8m8s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 84% /500Mi, 9.390Mi/s, 8sTransferred:   	  925.996 MiB / 5.381 GiB, 17%, 9.363 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 85% /500Mi, 9.390Mi/s, 7sTransferred:   	  930.996 MiB / 5.381 GiB, 17%, 9.363 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 86% /500Mi, 9.365Mi/s, 7sTransferred:   	  935.996 MiB / 5.381 GiB, 17%, 9.338 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 87% /500Mi, 9.365Mi/s, 6sTransferred:   	  940.996 MiB / 5.381 GiB, 17%, 9.338 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 88% /500Mi, 9.342Mi/s, 6sTransferred:   	  944.996 MiB / 5.381 GiB, 17%, 9.317 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 88% /500Mi, 9.342Mi/s, 5sTransferred:   	  948.996 MiB / 5.381 GiB, 17%, 9.317 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 89% /500Mi, 9.383Mi/s, 5sTransferred:   	  954.996 MiB / 5.381 GiB, 17%, 9.298 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 90% /500Mi, 9.383Mi/s, 4sTransferred:   	  957.996 MiB / 5.381 GiB, 17%, 9.298 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 91% /500Mi, 9.291Mi/s, 4sTransferred:   	  962.996 MiB / 5.381 GiB, 17%, 9.213 MiB/s, ETA 8m13s
+Transferred:            1 / 12, 8%
+Elapsed time:      1m59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 92% /500Mi, 9.291Mi/s, 3sTransferred:   	  967.996 MiB / 5.381 GiB, 18%, 9.213 MiB/s, ETA 8m12s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 93% /500Mi, 9.274Mi/s, 3sTransferred:   	  970.996 MiB / 5.381 GiB, 18%, 9.263 MiB/s, ETA 8m10s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 94% /500Mi, 9.274Mi/s, 3sTransferred:   	  975.996 MiB / 5.381 GiB, 18%, 9.263 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 95% /500Mi, 9.195Mi/s, 2sTransferred:   	  980.996 MiB / 5.381 GiB, 18%, 9.188 MiB/s, ETA 8m12s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 96% /500Mi, 9.195Mi/s, 2sTransferred:   	  985.996 MiB / 5.381 GiB, 18%, 9.188 MiB/s, ETA 8m12s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 97% /500Mi, 9.251Mi/s, 1sTransferred:   	  990.996 MiB / 5.381 GiB, 18%, 9.239 MiB/s, ETA 8m9s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 98% /500Mi, 9.251Mi/s, 0sTransferred:   	  995.996 MiB / 5.381 GiB, 18%, 9.239 MiB/s, ETA 8m8s
+Transferred:            1 / 12, 8%
+Elapsed time:       2m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.002: 99% /500Mi, 9.291Mi/s, 0sTransferred:   	 1000.496 MiB / 5.381 GiB, 18%, 9.279 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  0% /500Mi, 0/s, -Transferred:   	 1004.996 MiB / 5.381 GiB, 18%, 9.279 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  0% /500Mi, 0/s, -Transferred:   	 1008.996 MiB / 5.381 GiB, 18%, 9.263 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  1% /500Mi, 7.990Mi/s, 1m1sTransferred:   	 1013.996 MiB / 5.381 GiB, 18%, 9.263 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  2% /500Mi, 7.990Mi/s, 1m0sTransferred:   	 1017.996 MiB / 5.381 GiB, 18%, 9.248 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  3% /500Mi, 8.996Mi/s, 53sTransferred:   	 1022.996 MiB / 5.381 GiB, 19%, 9.248 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  4% /500Mi, 8.996Mi/s, 53sTransferred:   	    1.003 GiB / 5.381 GiB, 19%, 9.237 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  5% /500Mi, 8.649Mi/s, 54sTransferred:   	    1.007 GiB / 5.381 GiB, 19%, 9.237 MiB/s, ETA 8m4s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  6% /500Mi, 8.649Mi/s, 54sTransferred:   	    1.011 GiB / 5.381 GiB, 19%, 9.159 MiB/s, ETA 8m8s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  6% /500Mi, 8.498Mi/s, 54sTransferred:   	    1.015 GiB / 5.381 GiB, 19%, 9.159 MiB/s, ETA 8m8s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  7% /500Mi, 8.498Mi/s, 54sTransferred:   	    1.019 GiB / 5.381 GiB, 19%, 9.087 MiB/s, ETA 8m11s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  8% /500Mi, 8.388Mi/s, 54sTransferred:   	    1.021 GiB / 5.381 GiB, 19%, 9.087 MiB/s, ETA 8m11s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  9% /500Mi, 8.388Mi/s, 54sTransferred:   	    1.025 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m14s
+Transferred:            2 / 12, 17%
+Elapsed time:       2m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003:  9% /500Mi, 8.331Mi/s, 54sTransferred:   	    1.029 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m14s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 10% /500Mi, 8.331Mi/s, 53sTransferred:   	    1.034 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m13s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 11% /500Mi, 8.284Mi/s, 53sTransferred:   	    1.038 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m13s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 12% /500Mi, 8.284Mi/s, 52sTransferred:   	    1.042 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m12s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 13% /500Mi, 8.374Mi/s, 51sTransferred:   	    1.046 GiB / 5.381 GiB, 19%, 9.018 MiB/s, ETA 8m12s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 14% /500Mi, 8.374Mi/s, 51sTransferred:   	    1.050 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m11s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 14% /500Mi, 8.332Mi/s, 51sTransferred:   	    1.054 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m11s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 15% /500Mi, 8.332Mi/s, 50sTransferred:   	    1.057 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m10s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 16% /500Mi, 8.199Mi/s, 50sTransferred:   	    1.060 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m10s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 16% /500Mi, 8.199Mi/s, 50sTransferred:   	    1.064 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m10s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 17% /500Mi, 8.090Mi/s, 50sTransferred:   	    1.069 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m9s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 18% /500Mi, 8.090Mi/s, 50sTransferred:   	    1.074 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m8s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 19% /500Mi, 8.247Mi/s, 48sTransferred:   	    1.078 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m8s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 20% /500Mi, 8.247Mi/s, 48sTransferred:   	    1.084 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m7s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 21% /500Mi, 8.375Mi/s, 46sTransferred:   	    1.089 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m7s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 22% /500Mi, 8.375Mi/s, 45sTransferred:   	    1.093 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m6s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 23% /500Mi, 8.493Mi/s, 44sTransferred:   	    1.098 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m6s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 24% /500Mi, 8.493Mi/s, 44sTransferred:   	    1.102 GiB / 5.381 GiB, 20%, 9.018 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 25% /500Mi, 8.465Mi/s, 43sTransferred:   	    1.105 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m5s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 26% /500Mi, 8.465Mi/s, 43sTransferred:   	    1.109 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m4s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 27% /500Mi, 8.499Mi/s, 42sTransferred:   	    1.114 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m4s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 28% /500Mi, 8.499Mi/s, 42sTransferred:   	    1.119 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m3s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 29% /500Mi, 8.530Mi/s, 41sTransferred:   	    1.124 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m3s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 30% /500Mi, 8.530Mi/s, 40sTransferred:   	    1.129 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m2s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 31% /500Mi, 8.622Mi/s, 39sTransferred:   	    1.134 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m2s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 32% /500Mi, 8.622Mi/s, 39sTransferred:   	    1.139 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m1s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 33% /500Mi, 8.771Mi/s, 38sTransferred:   	    1.143 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m1s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 33% /500Mi, 8.771Mi/s, 37sTransferred:   	    1.146 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m
+Transferred:            2 / 12, 17%
+Elapsed time:      2m23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 34% /500Mi, 8.723Mi/s, 37sTransferred:   	    1.150 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 8m
+Transferred:            2 / 12, 17%
+Elapsed time:      2m24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 35% /500Mi, 8.723Mi/s, 36sTransferred:   	    1.154 GiB / 5.381 GiB, 21%, 9.018 MiB/s, ETA 7m59s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 36% /500Mi, 8.610Mi/s, 36sTransferred:   	    1.159 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m59s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 37% /500Mi, 8.610Mi/s, 36sTransferred:   	    1.162 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m58s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 37% /500Mi, 8.641Mi/s, 35sTransferred:   	    1.166 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m58s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 38% /500Mi, 8.641Mi/s, 35sTransferred:   	    1.169 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m58s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 39% /500Mi, 8.538Mi/s, 35sTransferred:   	    1.173 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m57s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 40% /500Mi, 8.538Mi/s, 35sTransferred:   	    1.176 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m57s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 40% /500Mi, 8.437Mi/s, 35sTransferred:   	    1.180 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m56s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 41% /500Mi, 8.437Mi/s, 34sTransferred:   	    1.184 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m56s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 42% /500Mi, 8.415Mi/s, 34sTransferred:   	    1.187 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m56s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 42% /500Mi, 8.415Mi/s, 33sTransferred:   	    1.190 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m55s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 43% /500Mi, 8.264Mi/s, 34sTransferred:   	    1.193 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m55s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 44% /500Mi, 8.264Mi/s, 33sTransferred:   	    1.196 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m55s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 44% /500Mi, 8.185Mi/s, 33sTransferred:   	    1.199 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m54s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 45% /500Mi, 8.185Mi/s, 33sTransferred:   	    1.204 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m54s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 46% /500Mi, 8.111Mi/s, 32sTransferred:   	    1.209 GiB / 5.381 GiB, 22%, 9.018 MiB/s, ETA 7m53s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 47% /500Mi, 8.111Mi/s, 32sTransferred:   	    1.213 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m53s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 48% /500Mi, 8.163Mi/s, 31sTransferred:   	    1.218 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m52s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 49% /500Mi, 8.163Mi/s, 30sTransferred:   	    1.223 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m52s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 50% /500Mi, 8.279Mi/s, 29sTransferred:   	    1.226 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m51s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 50% /500Mi, 8.279Mi/s, 29sTransferred:   	    1.229 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m51s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 51% /500Mi, 8.264Mi/s, 29sTransferred:   	    1.233 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m50s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 52% /500Mi, 8.264Mi/s, 28sTransferred:   	    1.237 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m50s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 53% /500Mi, 8.185Mi/s, 28sTransferred:   	    1.240 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m50s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 53% /500Mi, 8.185Mi/s, 28sTransferred:   	    1.245 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m49s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 54% /500Mi, 8.173Mi/s, 27sTransferred:   	    1.249 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m49s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 55% /500Mi, 8.173Mi/s, 27sTransferred:   	    1.253 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m48s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 56% /500Mi, 8.225Mi/s, 26sTransferred:   	    1.258 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m48s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 57% /500Mi, 8.225Mi/s, 25sTransferred:   	    1.262 GiB / 5.381 GiB, 23%, 9.018 MiB/s, ETA 7m47s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 58% /500Mi, 8.211Mi/s, 25sTransferred:   	    1.266 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m47s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 59% /500Mi, 8.211Mi/s, 24sTransferred:   	    1.270 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m46s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 59% /500Mi, 8.198Mi/s, 24sTransferred:   	    1.273 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m46s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 60% /500Mi, 8.198Mi/s, 23sTransferred:   	    1.277 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m45s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 61% /500Mi, 8.248Mi/s, 23sTransferred:   	    1.281 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m45s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 62% /500Mi, 8.248Mi/s, 22sTransferred:   	    1.281 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m45s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 62% /500Mi, 7.981Mi/s, 23sTransferred:   	    1.286 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m44s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 63% /500Mi, 7.981Mi/s, 22sTransferred:   	    1.291 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m44s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 64% /500Mi, 8.048Mi/s, 22sTransferred:   	    1.294 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m44s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 64% /500Mi, 8.048Mi/s, 21sTransferred:   	    1.299 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m43s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 65% /500Mi, 8.107Mi/s, 20sTransferred:   	    1.303 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m43s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 66% /500Mi, 8.107Mi/s, 20sTransferred:   	    1.307 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m42s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 67% /500Mi, 8.038Mi/s, 20sTransferred:   	    1.310 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m42s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 68% /500Mi, 8.038Mi/s, 19sTransferred:   	    1.313 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m41s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 68% /500Mi, 7.972Mi/s, 19sTransferred:   	    1.317 GiB / 5.381 GiB, 24%, 9.018 MiB/s, ETA 7m41s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 69% /500Mi, 7.972Mi/s, 18sTransferred:   	    1.321 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m40s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 70% /500Mi, 7.975Mi/s, 18sTransferred:   	    1.324 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m40s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 71% /500Mi, 7.975Mi/s, 18sTransferred:   	    1.327 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m40s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 71% /500Mi, 7.914Mi/s, 17sTransferred:   	    1.331 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m39s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 72% /500Mi, 7.914Mi/s, 17sTransferred:   	    1.334 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m39s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 73% /500Mi, 7.857Mi/s, 17sTransferred:   	    1.338 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m39s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 73% /500Mi, 7.857Mi/s, 16sTransferred:   	    1.342 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m38s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 74% /500Mi, 7.866Mi/s, 16sTransferred:   	    1.346 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m38s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 75% /500Mi, 7.866Mi/s, 15sTransferred:   	    1.350 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m37s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 76% /500Mi, 7.874Mi/s, 14sTransferred:   	    1.354 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m37s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 77% /500Mi, 7.874Mi/s, 14sTransferred:   	    1.358 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m36s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 78% /500Mi, 7.940Mi/s, 13sTransferred:   	    1.363 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m36s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 79% /500Mi, 7.940Mi/s, 13sTransferred:   	    1.366 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m35s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 79% /500Mi, 7.948Mi/s, 12sTransferred:   	    1.370 GiB / 5.381 GiB, 25%, 9.018 MiB/s, ETA 7m35s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 80% /500Mi, 7.948Mi/s, 12sTransferred:   	    1.374 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m34s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 81% /500Mi, 7.889Mi/s, 11sTransferred:   	    1.377 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m34s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 81% /500Mi, 7.889Mi/s, 11sTransferred:   	    1.382 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m34s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 82% /500Mi, 7.950Mi/s, 10sTransferred:   	    1.386 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m33s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 83% /500Mi, 7.950Mi/s, 10sTransferred:   	    1.388 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m33s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 84% /500Mi, 7.770Mi/s, 10sTransferred:   	    1.391 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m33s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 84% /500Mi, 7.770Mi/s, 9sTransferred:   	    1.395 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m32s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 85% /500Mi, 7.722Mi/s, 9sTransferred:   	    1.399 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m32s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 86% /500Mi, 7.722Mi/s, 8sTransferred:   	    1.404 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m31s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 87% /500Mi, 7.927Mi/s, 7sTransferred:   	    1.409 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m30s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 88% /500Mi, 7.927Mi/s, 7sTransferred:   	    1.413 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m30s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 89% /500Mi, 7.989Mi/s, 6sTransferred:   	    1.417 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m30s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 90% /500Mi, 7.989Mi/s, 6sTransferred:   	    1.421 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m29s
+Transferred:            2 / 12, 17%
+Elapsed time:      2m59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 90% /500Mi, 7.931Mi/s, 5sTransferred:   	    1.425 GiB / 5.381 GiB, 26%, 9.018 MiB/s, ETA 7m29s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 91% /500Mi, 7.931Mi/s, 5sTransferred:   	    1.429 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m28s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 92% /500Mi, 7.936Mi/s, 4sTransferred:   	    1.433 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m28s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 93% /500Mi, 7.936Mi/s, 4sTransferred:   	    1.437 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m27s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 94% /500Mi, 8.000Mi/s, 3sTransferred:   	    1.441 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m27s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 95% /500Mi, 8.000Mi/s, 3sTransferred:   	    1.445 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m26s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 95% /500Mi, 8.064Mi/s, 2sTransferred:   	    1.450 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m26s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 96% /500Mi, 8.064Mi/s, 1sTransferred:   	    1.455 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m25s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 97% /500Mi, 8.119Mi/s, 1sTransferred:   	    1.460 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m25s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 98% /500Mi, 8.119Mi/s, 0sTransferred:   	    1.464 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m24s
+Transferred:            2 / 12, 17%
+Elapsed time:       3m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.003: 99% /500Mi, 8.242Mi/s, 0sTransferred:   	    1.465 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m24s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  0% /500Mi, 0/s, -Transferred:   	    1.470 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m24s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  0% /500Mi, 0/s, -Transferred:   	    1.474 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m23s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  1% /500Mi, 8.976Mi/s, 54sTransferred:   	    1.479 GiB / 5.381 GiB, 27%, 9.018 MiB/s, ETA 7m23s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  2% /500Mi, 8.976Mi/s, 54sTransferred:   	    1.484 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m22s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  3% /500Mi, 9.497Mi/s, 50sTransferred:   	    1.489 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m21s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  4% /500Mi, 9.497Mi/s, 50sTransferred:   	    1.493 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m21s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  5% /500Mi, 9.332Mi/s, 50sTransferred:   	    1.497 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m20s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  6% /500Mi, 9.332Mi/s, 50sTransferred:   	    1.503 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m20s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  7% /500Mi, 9.499Mi/s, 48sTransferred:   	    1.506 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m19s
+Transferred:            3 / 12, 25%
+Elapsed time:       3m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  8% /500Mi, 9.499Mi/s, 48sTransferred:   	    1.509 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m19s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  8% /500Mi, 8.999Mi/s, 50sTransferred:   	    1.512 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m19s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004:  9% /500Mi, 8.999Mi/s, 50sTransferred:   	    1.517 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m18s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 10% /500Mi, 8.833Mi/s, 50sTransferred:   	    1.521 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m18s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 11% /500Mi, 8.833Mi/s, 50sTransferred:   	    1.524 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m17s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 12% /500Mi, 8.570Mi/s, 51sTransferred:   	    1.527 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m17s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 12% /500Mi, 8.570Mi/s, 50sTransferred:   	    1.532 GiB / 5.381 GiB, 28%, 9.018 MiB/s, ETA 7m16s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 13% /500Mi, 8.624Mi/s, 49sTransferred:   	    1.537 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m16s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 14% /500Mi, 8.624Mi/s, 49sTransferred:   	    1.542 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m15s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 15% /500Mi, 8.666Mi/s, 48sTransferred:   	    1.546 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m15s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 16% /500Mi, 8.666Mi/s, 48sTransferred:   	    1.550 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m14s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 17% /500Mi, 8.599Mi/s, 48sTransferred:   	    1.554 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m14s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 18% /500Mi, 8.599Mi/s, 47sTransferred:   	    1.558 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m14s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 18% /500Mi, 8.545Mi/s, 47sTransferred:   	    1.561 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m13s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 19% /500Mi, 8.545Mi/s, 47sTransferred:   	    1.565 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m13s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 20% /500Mi, 8.582Mi/s, 46sTransferred:   	    1.570 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m12s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 21% /500Mi, 8.582Mi/s, 45sTransferred:   	    1.574 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m12s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 22% /500Mi, 8.615Mi/s, 45sTransferred:   	    1.579 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m11s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 23% /500Mi, 8.615Mi/s, 44sTransferred:   	    1.584 GiB / 5.381 GiB, 29%, 9.018 MiB/s, ETA 7m11s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 24% /500Mi, 8.642Mi/s, 43sTransferred:   	    1.588 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m10s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 25% /500Mi, 8.642Mi/s, 43sTransferred:   	    1.592 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m10s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 25% /500Mi, 8.666Mi/s, 42sTransferred:   	    1.597 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m9s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 26% /500Mi, 8.666Mi/s, 42sTransferred:   	    1.602 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m9s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 27% /500Mi, 8.687Mi/s, 41sTransferred:   	    1.606 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m8s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 28% /500Mi, 8.687Mi/s, 40sTransferred:   	    1.611 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m7s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 29% /500Mi, 8.768Mi/s, 39sTransferred:   	    1.616 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m7s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 30% /500Mi, 8.768Mi/s, 39sTransferred:   	    1.620 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m6s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 31% /500Mi, 8.846Mi/s, 38sTransferred:   	    1.625 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m6s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 32% /500Mi, 8.846Mi/s, 37sTransferred:   	    1.629 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m5s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 33% /500Mi, 8.855Mi/s, 37sTransferred:   	    1.632 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m5s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 34% /500Mi, 8.855Mi/s, 37sTransferred:   	    1.635 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m5s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 34% /500Mi, 8.677Mi/s, 37sTransferred:   	    1.638 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m4s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 35% /500Mi, 8.677Mi/s, 37sTransferred:   	    1.641 GiB / 5.381 GiB, 30%, 9.018 MiB/s, ETA 7m4s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 35% /500Mi, 8.508Mi/s, 37sTransferred:   	    1.644 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m4s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 36% /500Mi, 8.508Mi/s, 37sTransferred:   	    1.648 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m3s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 37% /500Mi, 8.415Mi/s, 37sTransferred:   	    1.652 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m3s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 38% /500Mi, 8.415Mi/s, 36sTransferred:   	    1.657 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m2s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 39% /500Mi, 8.515Mi/s, 35sTransferred:   	    1.662 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m2s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 40% /500Mi, 8.515Mi/s, 34sTransferred:   	    1.666 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m1s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 41% /500Mi, 8.546Mi/s, 34sTransferred:   	    1.671 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m1s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 42% /500Mi, 8.546Mi/s, 33sTransferred:   	    1.676 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m
+Transferred:            3 / 12, 25%
+Elapsed time:      3m30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 43% /500Mi, 8.574Mi/s, 33sTransferred:   	    1.680 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 7m
+Transferred:            3 / 12, 25%
+Elapsed time:      3m30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 43% /500Mi, 8.574Mi/s, 32sTransferred:   	    1.684 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 6m59s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 44% /500Mi, 8.538Mi/s, 32sTransferred:   	    1.687 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 6m59s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 45% /500Mi, 8.538Mi/s, 31sTransferred:   	    1.691 GiB / 5.381 GiB, 31%, 9.018 MiB/s, ETA 6m58s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 46% /500Mi, 8.504Mi/s, 31sTransferred:   	    1.695 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m58s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 47% /500Mi, 8.504Mi/s, 31sTransferred:   	    1.698 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m58s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 47% /500Mi, 8.472Mi/s, 30sTransferred:   	    1.701 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m57s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 48% /500Mi, 8.472Mi/s, 30sTransferred:   	    1.704 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m57s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 48% /500Mi, 8.318Mi/s, 30sTransferred:   	    1.708 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m57s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 49% /500Mi, 8.318Mi/s, 30sTransferred:   	    1.713 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m56s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 50% /500Mi, 8.299Mi/s, 29sTransferred:   	    1.717 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m56s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 51% /500Mi, 8.299Mi/s, 29sTransferred:   	    1.722 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m55s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 52% /500Mi, 8.404Mi/s, 28sTransferred:   	    1.728 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m54s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 53% /500Mi, 8.404Mi/s, 27sTransferred:   	    1.732 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m54s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 54% /500Mi, 8.503Mi/s, 26sTransferred:   	    1.737 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m53s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 55% /500Mi, 8.503Mi/s, 25sTransferred:   	    1.742 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m53s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 56% /500Mi, 8.589Mi/s, 25sTransferred:   	    1.747 GiB / 5.381 GiB, 32%, 9.018 MiB/s, ETA 6m52s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 57% /500Mi, 8.589Mi/s, 24sTransferred:   	    1.752 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m52s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 58% /500Mi, 8.686Mi/s, 23sTransferred:   	    1.757 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m51s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 59% /500Mi, 8.686Mi/s, 23sTransferred:   	    1.762 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m50s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 60% /500Mi, 8.831Mi/s, 22sTransferred:   	    1.767 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m50s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 61% /500Mi, 8.831Mi/s, 21sTransferred:   	    1.771 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m49s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 62% /500Mi, 8.838Mi/s, 21sTransferred:   	    1.776 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m49s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 63% /500Mi, 8.838Mi/s, 20sTransferred:   	    1.781 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m48s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 64% /500Mi, 8.978Mi/s, 19sTransferred:   	    1.786 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m48s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 65% /500Mi, 8.978Mi/s, 19sTransferred:   	    1.791 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m47s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 66% /500Mi, 9.041Mi/s, 18sTransferred:   	    1.796 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m47s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 67% /500Mi, 9.041Mi/s, 17sTransferred:   	    1.799 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m46s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 68% /500Mi, 8.972Mi/s, 17sTransferred:   	    1.801 GiB / 5.381 GiB, 33%, 9.018 MiB/s, ETA 6m46s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 68% /500Mi, 8.972Mi/s, 17sTransferred:   	    1.805 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m46s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 69% /500Mi, 8.788Mi/s, 17sTransferred:   	    1.809 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m45s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 70% /500Mi, 8.788Mi/s, 16sTransferred:   	    1.812 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m45s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 71% /500Mi, 8.741Mi/s, 16sTransferred:   	    1.817 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m44s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 72% /500Mi, 8.741Mi/s, 15sTransferred:   	    1.822 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m44s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 73% /500Mi, 8.757Mi/s, 15sTransferred:   	    1.826 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m43s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 73% /500Mi, 8.757Mi/s, 14sTransferred:   	    1.831 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m43s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 74% /500Mi, 8.768Mi/s, 14sTransferred:   	    1.835 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m42s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 75% /500Mi, 8.768Mi/s, 13sTransferred:   	    1.839 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m42s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 76% /500Mi, 8.787Mi/s, 13sTransferred:   	    1.843 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m41s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 77% /500Mi, 8.787Mi/s, 12sTransferred:   	    1.848 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m41s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 78% /500Mi, 8.799Mi/s, 12sTransferred:   	    1.853 GiB / 5.381 GiB, 34%, 9.018 MiB/s, ETA 6m40s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 79% /500Mi, 8.799Mi/s, 11sTransferred:   	    1.857 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m40s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 80% /500Mi, 8.875Mi/s, 11sTransferred:   	    1.861 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m39s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 81% /500Mi, 8.875Mi/s, 10sTransferred:   	    1.866 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m39s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 82% /500Mi, 8.883Mi/s, 10sTransferred:   	    1.871 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m38s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 83% /500Mi, 8.883Mi/s, 9sTransferred:   	    1.875 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m38s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 83% /500Mi, 8.886Mi/s, 9sTransferred:   	    1.880 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m37s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 84% /500Mi, 8.886Mi/s, 8sTransferred:   	    1.885 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m36s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 85% /500Mi, 8.898Mi/s, 7sTransferred:   	    1.890 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m36s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 86% /500Mi, 8.898Mi/s, 7sTransferred:   	    1.894 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m35s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 87% /500Mi, 8.966Mi/s, 6sTransferred:   	    1.898 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m35s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 88% /500Mi, 8.966Mi/s, 6sTransferred:   	    1.903 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m34s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 89% /500Mi, 9.031Mi/s, 5sTransferred:   	    1.908 GiB / 5.381 GiB, 35%, 9.018 MiB/s, ETA 6m34s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 90% /500Mi, 9.031Mi/s, 5sTransferred:   	    1.913 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m33s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 91% /500Mi, 9.083Mi/s, 4sTransferred:   	    1.918 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m33s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 92% /500Mi, 9.083Mi/s, 3sTransferred:   	    1.921 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m32s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 93% /500Mi, 8.959Mi/s, 3sTransferred:   	    1.926 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m32s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 94% /500Mi, 8.959Mi/s, 3sTransferred:   	    1.931 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m31s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 95% /500Mi, 9.019Mi/s, 2sTransferred:   	    1.936 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m31s
+Transferred:            3 / 12, 25%
+Elapsed time:      3m59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 96% /500Mi, 9.019Mi/s, 1sTransferred:   	    1.939 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m30s
+Transferred:            3 / 12, 25%
+Elapsed time:       4m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 97% /500Mi, 9.020Mi/s, 1sTransferred:   	    1.943 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m30s
+Transferred:            3 / 12, 25%
+Elapsed time:       4m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 97% /500Mi, 9.020Mi/s, 1sTransferred:   	    1.948 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m29s
+Transferred:            3 / 12, 25%
+Elapsed time:       4m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 98% /500Mi, 9.019Mi/s, 0sTransferred:   	    1.952 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m29s
+Transferred:            3 / 12, 25%
+Elapsed time:       4m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.004: 99% /500Mi, 9.019Mi/s, 0sTransferred:   	    1.955 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m28s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  0% /500Mi, 0/s, -Transferred:   	    1.959 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m28s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  1% /500Mi, 0/s, -Transferred:   	    1.963 GiB / 5.381 GiB, 36%, 9.018 MiB/s, ETA 6m28s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  1% /500Mi, 6.987Mi/s, 1m10sTransferred:   	    1.967 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m27s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  2% /500Mi, 6.987Mi/s, 1m9sTransferred:   	    1.971 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m27s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  3% /500Mi, 6.995Mi/s, 1m8sTransferred:   	    1.976 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m26s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  4% /500Mi, 6.995Mi/s, 1m8sTransferred:   	    1.980 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m26s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  5% /500Mi, 7.999Mi/s, 59sTransferred:   	    1.984 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m25s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  6% /500Mi, 7.999Mi/s, 58sTransferred:   	    1.989 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m25s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  7% /500Mi, 8.249Mi/s, 56sTransferred:   	    1.993 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m24s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  8% /500Mi, 8.249Mi/s, 55sTransferred:   	    1.996 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m24s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  8% /500Mi, 8.180Mi/s, 55sTransferred:   	    1.999 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m23s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005:  9% /500Mi, 8.180Mi/s, 55sTransferred:   	    2.004 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m23s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 10% /500Mi, 7.998Mi/s, 56sTransferred:   	    2.008 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m22s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 11% /500Mi, 7.998Mi/s, 55sTransferred:   	    2.010 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m22s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 11% /500Mi, 7.998Mi/s, 55sTransferred:   	    2.014 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m22s
+Transferred:            4 / 12, 33%
+Elapsed time:       4m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 12% /500Mi, 7.998Mi/s, 54sTransferred:   	    2.018 GiB / 5.381 GiB, 37%, 9.018 MiB/s, ETA 6m21s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 13% /500Mi, 7.873Mi/s, 55sTransferred:   	    2.021 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m21s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 13% /500Mi, 7.873Mi/s, 54sTransferred:   	    2.025 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m20s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 14% /500Mi, 7.883Mi/s, 54sTransferred:   	    2.030 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m20s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 15% /500Mi, 7.883Mi/s, 53sTransferred:   	    2.034 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m19s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 16% /500Mi, 7.999Mi/s, 52sTransferred:   	    2.038 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m19s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 17% /500Mi, 7.999Mi/s, 51sTransferred:   	    2.043 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m18s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 18% /500Mi, 7.999Mi/s, 51sTransferred:   	    2.045 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m18s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 18% /500Mi, 7.999Mi/s, 50sTransferred:   	    2.050 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m18s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 19% /500Mi, 7.832Mi/s, 51sTransferred:   	    2.055 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m17s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 20% /500Mi, 7.832Mi/s, 50sTransferred:   	    2.059 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m17s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 21% /500Mi, 7.999Mi/s, 49sTransferred:   	    2.063 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m16s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 22% /500Mi, 7.999Mi/s, 48sTransferred:   	    2.066 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m16s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 23% /500Mi, 8.143Mi/s, 47sTransferred:   	    2.071 GiB / 5.381 GiB, 38%, 9.018 MiB/s, ETA 6m15s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 24% /500Mi, 8.143Mi/s, 46sTransferred:   	    2.076 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m15s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 25% /500Mi, 8.066Mi/s, 46sTransferred:   	    2.081 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m14s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 26% /500Mi, 8.066Mi/s, 45sTransferred:   	    2.086 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m14s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 27% /500Mi, 8.250Mi/s, 44sTransferred:   	    2.088 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m13s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 27% /500Mi, 8.250Mi/s, 43sTransferred:   	    2.092 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m13s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 28% /500Mi, 8.235Mi/s, 43sTransferred:   	    2.092 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m13s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 28% /500Mi, 8.235Mi/s, 43sTransferred:   	    2.096 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m12s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 29% /500Mi, 7.907Mi/s, 44sTransferred:   	    2.100 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m12s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 29% /500Mi, 7.907Mi/s, 44sTransferred:   	    2.104 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m11s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 30% /500Mi, 7.975Mi/s, 43sTransferred:   	    2.109 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m11s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 31% /500Mi, 7.975Mi/s, 42sTransferred:   	    2.115 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m10s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 33% /500Mi, 8.040Mi/s, 41sTransferred:   	    2.119 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m10s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 33% /500Mi, 8.040Mi/s, 41sTransferred:   	    2.123 GiB / 5.381 GiB, 39%, 9.018 MiB/s, ETA 6m9s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 34% /500Mi, 8.093Mi/s, 40sTransferred:   	    2.126 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m9s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 35% /500Mi, 8.093Mi/s, 39sTransferred:   	    2.129 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m9s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 35% /500Mi, 8.093Mi/s, 39sTransferred:   	    2.133 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m8s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 36% /500Mi, 8.093Mi/s, 39sTransferred:   	    2.136 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m8s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 37% /500Mi, 7.963Mi/s, 39sTransferred:   	    2.140 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m7s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 38% /500Mi, 7.963Mi/s, 38sTransferred:   	    2.145 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m7s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 39% /500Mi, 7.964Mi/s, 38sTransferred:   	    2.149 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m6s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 40% /500Mi, 7.964Mi/s, 37sTransferred:   	    2.153 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m6s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 40% /500Mi, 8.092Mi/s, 36sTransferred:   	    2.157 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m6s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 41% /500Mi, 8.092Mi/s, 35sTransferred:   	    2.161 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m5s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 42% /500Mi, 8.022Mi/s, 35sTransferred:   	    2.164 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m5s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 43% /500Mi, 8.022Mi/s, 35sTransferred:   	    2.167 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m4s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 43% /500Mi, 8.021Mi/s, 35sTransferred:   	    2.170 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m4s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 44% /500Mi, 8.021Mi/s, 34sTransferred:   	    2.175 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m4s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 45% /500Mi, 7.896Mi/s, 34sTransferred:   	    2.178 GiB / 5.381 GiB, 40%, 9.018 MiB/s, ETA 6m3s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 45% /500Mi, 7.896Mi/s, 34sTransferred:   	    2.182 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m3s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 46% /500Mi, 7.903Mi/s, 33sTransferred:   	    2.185 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m2s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 47% /500Mi, 7.903Mi/s, 33sTransferred:   	    2.189 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m2s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 48% /500Mi, 7.779Mi/s, 33sTransferred:   	    2.193 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m1s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 49% /500Mi, 7.779Mi/s, 32sTransferred:   	    2.197 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m1s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 49% /500Mi, 7.857Mi/s, 31sTransferred:   	    2.202 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m
+Transferred:            4 / 12, 33%
+Elapsed time:      4m33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 50% /500Mi, 7.857Mi/s, 31sTransferred:   	    2.206 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m
+Transferred:            4 / 12, 33%
+Elapsed time:      4m34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 51% /500Mi, 7.996Mi/s, 30sTransferred:   	    2.209 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m
+Transferred:            4 / 12, 33%
+Elapsed time:      4m34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 52% /500Mi, 7.996Mi/s, 29sTransferred:   	    2.210 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 6m
+Transferred:            4 / 12, 33%
+Elapsed time:      4m35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 52% /500Mi, 7.932Mi/s, 29sTransferred:   	    2.212 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 5m59s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 52% /500Mi, 7.932Mi/s, 29sTransferred:   	    2.215 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 5m59s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 53% /500Mi, 7.625Mi/s, 30sTransferred:   	    2.219 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 5m59s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 54% /500Mi, 7.625Mi/s, 29sTransferred:   	    2.223 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 5m58s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 55% /500Mi, 7.523Mi/s, 29sTransferred:   	    2.228 GiB / 5.381 GiB, 41%, 9.018 MiB/s, ETA 5m58s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 56% /500Mi, 7.523Mi/s, 29sTransferred:   	    2.233 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m57s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 57% /500Mi, 7.676Mi/s, 27sTransferred:   	    2.237 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m56s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 58% /500Mi, 7.676Mi/s, 27sTransferred:   	    2.242 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m56s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 59% /500Mi, 7.823Mi/s, 26sTransferred:   	    2.246 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m55s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 59% /500Mi, 7.823Mi/s, 25sTransferred:   	    2.250 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m55s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 60% /500Mi, 7.831Mi/s, 25sTransferred:   	    2.254 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m55s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 61% /500Mi, 7.831Mi/s, 24sTransferred:   	    2.258 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m54s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 62% /500Mi, 7.845Mi/s, 23sTransferred:   	    2.261 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m54s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 62% /500Mi, 7.845Mi/s, 23sTransferred:   	    2.265 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m53s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 63% /500Mi, 7.855Mi/s, 23sTransferred:   	    2.269 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m53s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 64% /500Mi, 7.855Mi/s, 22sTransferred:   	    2.273 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m52s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 65% /500Mi, 7.864Mi/s, 21sTransferred:   	    2.278 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m52s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 66% /500Mi, 7.864Mi/s, 21sTransferred:   	    2.282 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m51s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 67% /500Mi, 7.935Mi/s, 20sTransferred:   	    2.286 GiB / 5.381 GiB, 42%, 9.018 MiB/s, ETA 5m51s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 68% /500Mi, 7.935Mi/s, 20sTransferred:   	    2.290 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m50s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 68% /500Mi, 8.002Mi/s, 19sTransferred:   	    2.293 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m50s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 69% /500Mi, 8.002Mi/s, 18sTransferred:   	    2.297 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m50s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 70% /500Mi, 7.876Mi/s, 18sTransferred:   	    2.300 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m49s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 70% /500Mi, 7.876Mi/s, 18sTransferred:   	    2.303 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m49s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 71% /500Mi, 7.821Mi/s, 18sTransferred:   	    2.307 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m49s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 72% /500Mi, 7.821Mi/s, 17sTransferred:   	    2.311 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m48s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 73% /500Mi, 7.833Mi/s, 17sTransferred:   	    2.314 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m48s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 73% /500Mi, 7.833Mi/s, 16sTransferred:   	    2.316 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m47s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 74% /500Mi, 7.840Mi/s, 16sTransferred:   	    2.321 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m47s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 75% /500Mi, 7.840Mi/s, 15sTransferred:   	    2.324 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m47s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 75% /500Mi, 7.724Mi/s, 15sTransferred:   	    2.326 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m46s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 76% /500Mi, 7.724Mi/s, 15sTransferred:   	    2.330 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m46s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 77% /500Mi, 7.620Mi/s, 14sTransferred:   	    2.333 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m46s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 77% /500Mi, 7.620Mi/s, 14sTransferred:   	    2.335 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m45s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 78% /500Mi, 7.518Mi/s, 14sTransferred:   	    2.339 GiB / 5.381 GiB, 43%, 9.018 MiB/s, ETA 5m45s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 78% /500Mi, 7.518Mi/s, 13sTransferred:   	    2.343 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m44s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 79% /500Mi, 7.423Mi/s, 13sTransferred:   	    2.346 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m44s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 80% /500Mi, 7.423Mi/s, 13sTransferred:   	    2.349 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m44s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 80% /500Mi, 7.398Mi/s, 12sTransferred:   	    2.352 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m43s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 81% /500Mi, 7.398Mi/s, 12sTransferred:   	    2.355 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m43s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 82% /500Mi, 7.372Mi/s, 11sTransferred:   	    2.358 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m43s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 82% /500Mi, 7.372Mi/s, 11sTransferred:   	    2.362 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m42s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 83% /500Mi, 7.347Mi/s, 11sTransferred:   	    2.366 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m42s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 84% /500Mi, 7.347Mi/s, 10sTransferred:   	    2.370 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m41s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 85% /500Mi, 7.328Mi/s, 9sTransferred:   	    2.374 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m41s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 86% /500Mi, 7.328Mi/s, 9sTransferred:   	    2.377 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m41s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 86% /500Mi, 7.370Mi/s, 8sTransferred:   	    2.380 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m40s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 87% /500Mi, 7.370Mi/s, 8sTransferred:   	    2.384 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m40s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 88% /500Mi, 7.343Mi/s, 8sTransferred:   	    2.388 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m39s
+Transferred:            4 / 12, 33%
+Elapsed time:      4m59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 88% /500Mi, 7.343Mi/s, 7sTransferred:   	    2.392 GiB / 5.381 GiB, 44%, 9.018 MiB/s, ETA 5m39s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 89% /500Mi, 7.388Mi/s, 6sTransferred:   	    2.396 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m38s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 90% /500Mi, 7.388Mi/s, 6sTransferred:   	    2.400 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m38s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 91% /500Mi, 7.424Mi/s, 5sTransferred:   	    2.404 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m37s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 92% /500Mi, 7.424Mi/s, 5sTransferred:   	    2.407 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m37s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 92% /500Mi, 7.524Mi/s, 4sTransferred:   	    2.412 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m37s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 93% /500Mi, 7.524Mi/s, 3sTransferred:   	    2.416 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m36s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 94% /500Mi, 7.553Mi/s, 3sTransferred:   	    2.420 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m36s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 95% /500Mi, 7.553Mi/s, 2sTransferred:   	    2.424 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m35s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 96% /500Mi, 7.520Mi/s, 2sTransferred:   	    2.428 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m35s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 97% /500Mi, 7.520Mi/s, 1sTransferred:   	    2.433 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m34s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 98% /500Mi, 7.612Mi/s, 1sTransferred:   	    2.437 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m34s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 99% /500Mi, 7.612Mi/s, 0sTransferred:   	    2.439 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m33s
+Transferred:            4 / 12, 33%
+Elapsed time:       5m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.005: 99% /500Mi, 7.692Mi/s, 0sTransferred:   	    2.444 GiB / 5.381 GiB, 45%, 9.018 MiB/s, ETA 5m33s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  0% /500Mi, 0/s, -Transferred:   	    2.448 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m32s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  1% /500Mi, 0/s, -Transferred:   	    2.453 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m32s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  2% /500Mi, 7.942Mi/s, 1m1sTransferred:   	    2.458 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m31s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  3% /500Mi, 7.942Mi/s, 1m0sTransferred:   	    2.463 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m31s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  4% /500Mi, 9.507Mi/s, 50sTransferred:   	    2.468 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m30s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  5% /500Mi, 9.507Mi/s, 49sTransferred:   	    2.473 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m30s
+Transferred:            5 / 12, 42%
+Elapsed time:       5m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  6% /500Mi, 9.669Mi/s, 48sTransferred:   	    2.477 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m29s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  7% /500Mi, 9.669Mi/s, 47sTransferred:   	    2.481 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m29s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  8% /500Mi, 9.476Mi/s, 48sTransferred:   	    2.485 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m28s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  8% /500Mi, 9.476Mi/s, 48sTransferred:   	    2.490 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m28s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006:  9% /500Mi, 9.385Mi/s, 47sTransferred:   	    2.495 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m27s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 10% /500Mi, 9.385Mi/s, 47sTransferred:   	    2.499 GiB / 5.381 GiB, 46%, 9.018 MiB/s, ETA 5m27s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 11% /500Mi, 9.327Mi/s, 47sTransferred:   	    2.504 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m26s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 12% /500Mi, 9.327Mi/s, 46sTransferred:   	    2.509 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m26s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 13% /500Mi, 9.425Mi/s, 45sTransferred:   	    2.513 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m25s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 14% /500Mi, 9.425Mi/s, 45sTransferred:   	    2.518 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m25s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 15% /500Mi, 9.377Mi/s, 45sTransferred:   	    2.522 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m24s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 16% /500Mi, 9.377Mi/s, 44sTransferred:   	    2.527 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m23s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m15.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 17% /500Mi, 9.446Mi/s, 43sTransferred:   	    2.532 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m23s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m16.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 18% /500Mi, 9.446Mi/s, 43sTransferred:   	    2.537 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m22s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m16.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 19% /500Mi, 9.400Mi/s, 42sTransferred:   	    2.540 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m22s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m17.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 20% /500Mi, 9.400Mi/s, 42sTransferred:   	    2.544 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m22s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m17.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 20% /500Mi, 9.364Mi/s, 42sTransferred:   	    2.548 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m21s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m18.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 21% /500Mi, 9.364Mi/s, 41sTransferred:   	    2.552 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m21s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m18.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 22% /500Mi, 9.168Mi/s, 42sTransferred:   	    2.556 GiB / 5.381 GiB, 47%, 9.018 MiB/s, ETA 5m20s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m19.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 23% /500Mi, 9.168Mi/s, 41sTransferred:   	    2.560 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m20s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m19.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 24% /500Mi, 9.078Mi/s, 41sTransferred:   	    2.562 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m19s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m20.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 24% /500Mi, 9.078Mi/s, 41sTransferred:   	    2.565 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m19s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m20.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 25% /500Mi, 8.855Mi/s, 42sTransferred:   	    2.569 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m19s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m21.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 26% /500Mi, 8.855Mi/s, 41sTransferred:   	    2.574 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m18s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m21.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 27% /500Mi, 8.801Mi/s, 41sTransferred:   	    2.578 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m18s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m22.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 27% /500Mi, 8.801Mi/s, 40sTransferred:   	    2.582 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m17s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m22.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 28% /500Mi, 8.877Mi/s, 40sTransferred:   	    2.587 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m17s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m23.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 29% /500Mi, 8.877Mi/s, 39sTransferred:   	    2.591 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m16s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m23.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 30% /500Mi, 8.822Mi/s, 39sTransferred:   	    2.596 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m16s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m24.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 31% /500Mi, 8.822Mi/s, 38sTransferred:   	    2.601 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m15s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m24.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 32% /500Mi, 8.895Mi/s, 37sTransferred:   	    2.605 GiB / 5.381 GiB, 48%, 9.018 MiB/s, ETA 5m15s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m25.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 33% /500Mi, 8.895Mi/s, 37sTransferred:   	    2.611 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m14s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m25.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 34% /500Mi, 8.961Mi/s, 36sTransferred:   	    2.616 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m13s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m26.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 35% /500Mi, 8.961Mi/s, 35sTransferred:   	    2.621 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m13s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m26.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 36% /500Mi, 9.085Mi/s, 34sTransferred:   	    2.626 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m12s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m27.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 37% /500Mi, 9.085Mi/s, 34sTransferred:   	    2.630 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m12s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m27.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 38% /500Mi, 9.082Mi/s, 33sTransferred:   	    2.635 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m11s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m28.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 39% /500Mi, 9.082Mi/s, 33sTransferred:   	    2.638 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m11s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m28.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 40% /500Mi, 9.143Mi/s, 32sTransferred:   	    2.641 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m11s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m29.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 40% /500Mi, 9.143Mi/s, 32sTransferred:   	    2.645 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m10s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m29.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 41% /500Mi, 8.947Mi/s, 32sTransferred:   	    2.648 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m10s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m30.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 42% /500Mi, 8.947Mi/s, 32sTransferred:   	    2.652 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m9s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m30.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 43% /500Mi, 8.885Mi/s, 31sTransferred:   	    2.655 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m9s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m31.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 43% /500Mi, 8.885Mi/s, 31sTransferred:   	    2.660 GiB / 5.381 GiB, 49%, 9.018 MiB/s, ETA 5m8s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m31.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 44% /500Mi, 8.770Mi/s, 31sTransferred:   	    2.664 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m8s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m32.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 45% /500Mi, 8.770Mi/s, 31sTransferred:   	    2.669 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m7s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m32.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 46% /500Mi, 8.721Mi/s, 30sTransferred:   	    2.674 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m7s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m33.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 47% /500Mi, 8.721Mi/s, 30sTransferred:   	    2.679 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m6s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m33.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 48% /500Mi, 8.861Mi/s, 29sTransferred:   	    2.683 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m6s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m34.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 49% /500Mi, 8.861Mi/s, 28sTransferred:   	    2.687 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m5s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m34.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 50% /500Mi, 8.872Mi/s, 27sTransferred:   	    2.692 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m5s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m35.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 51% /500Mi, 8.872Mi/s, 27sTransferred:   	    2.696 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m4s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m35.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 52% /500Mi, 8.943Mi/s, 26sTransferred:   	    2.701 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m4s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m36.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 53% /500Mi, 8.943Mi/s, 26sTransferred:   	    2.706 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m3s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m36.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 54% /500Mi, 8.940Mi/s, 25sTransferred:   	    2.711 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m3s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m37.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 55% /500Mi, 8.940Mi/s, 25sTransferred:   	    2.715 GiB / 5.381 GiB, 50%, 9.018 MiB/s, ETA 5m2s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m37.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 55% /500Mi, 9.009Mi/s, 24sTransferred:   	    2.719 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m2s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m38.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 56% /500Mi, 9.009Mi/s, 23sTransferred:   	    2.721 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m2s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m38.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 57% /500Mi, 8.887Mi/s, 24sTransferred:   	    2.725 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m1s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m39.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 57% /500Mi, 8.887Mi/s, 23sTransferred:   	    2.728 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m1s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m39.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 58% /500Mi, 8.707Mi/s, 23sTransferred:   	    2.732 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m
+Transferred:            5 / 12, 42%
+Elapsed time:      5m40.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 59% /500Mi, 8.707Mi/s, 23sTransferred:   	    2.737 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 5m
+Transferred:            5 / 12, 42%
+Elapsed time:      5m40.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 60% /500Mi, 8.720Mi/s, 22sTransferred:   	    2.742 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m59s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m41.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 61% /500Mi, 8.720Mi/s, 22sTransferred:   	    2.747 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m59s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m41.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 62% /500Mi, 8.805Mi/s, 21sTransferred:   	    2.752 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m58s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m42.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 63% /500Mi, 8.805Mi/s, 20sTransferred:   	    2.756 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m58s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m42.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 64% /500Mi, 8.816Mi/s, 20sTransferred:   	    2.760 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m57s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m43.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 65% /500Mi, 8.816Mi/s, 19sTransferred:   	    2.763 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m57s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m43.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 65% /500Mi, 8.828Mi/s, 19sTransferred:   	    2.767 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m56s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m44.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 66% /500Mi, 8.828Mi/s, 18sTransferred:   	    2.771 GiB / 5.381 GiB, 51%, 9.018 MiB/s, ETA 4m56s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m44.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 67% /500Mi, 8.652Mi/s, 18sTransferred:   	    2.773 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m56s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m45.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 67% /500Mi, 8.652Mi/s, 18sTransferred:   	    2.777 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m55s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m45.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 68% /500Mi, 8.547Mi/s, 18sTransferred:   	    2.780 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m55s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m46.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 69% /500Mi, 8.547Mi/s, 17sTransferred:   	    2.784 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m54s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m46.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 70% /500Mi, 8.446Mi/s, 17sTransferred:   	    2.788 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m54s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m47.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 70% /500Mi, 8.446Mi/s, 17sTransferred:   	    2.791 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m54s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m47.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 71% /500Mi, 8.425Mi/s, 16sTransferred:   	    2.794 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m53s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m48.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 72% /500Mi, 8.425Mi/s, 16sTransferred:   	    2.798 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m53s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m48.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 72% /500Mi, 8.336Mi/s, 16sTransferred:   	    2.801 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m52s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m49.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 73% /500Mi, 8.336Mi/s, 15sTransferred:   	    2.804 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m52s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m49.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 74% /500Mi, 8.190Mi/s, 15sTransferred:   	    2.806 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m52s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m50.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 74% /500Mi, 8.190Mi/s, 15sTransferred:   	    2.810 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m51s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m50.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 75% /500Mi, 7.991Mi/s, 15sTransferred:   	    2.812 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m51s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m51.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 75% /500Mi, 7.991Mi/s, 15sTransferred:   	    2.816 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m51s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m51.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 76% /500Mi, 7.990Mi/s, 14sTransferred:   	    2.819 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m50s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m52.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 77% /500Mi, 7.990Mi/s, 14sTransferred:   	    2.822 GiB / 5.381 GiB, 52%, 9.018 MiB/s, ETA 4m50s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m52.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 77% /500Mi, 7.866Mi/s, 13sTransferred:   	    2.825 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m50s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m53.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 78% /500Mi, 7.866Mi/s, 13sTransferred:   	    2.827 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m49s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m53.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 78% /500Mi, 7.750Mi/s, 13sTransferred:   	    2.830 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m49s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m54.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 79% /500Mi, 7.750Mi/s, 13sTransferred:   	    2.833 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m49s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m54.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 80% /500Mi, 7.574Mi/s, 13sTransferred:   	    2.837 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m48s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m55.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 80% /500Mi, 7.574Mi/s, 12sTransferred:   	    2.841 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m48s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m55.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 81% /500Mi, 7.607Mi/s, 11sTransferred:   	    2.845 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m47s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m56.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 82% /500Mi, 7.607Mi/s, 11sTransferred:   	    2.848 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m47s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m56.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 83% /500Mi, 7.566Mi/s, 11sTransferred:   	    2.852 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m47s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m57.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 83% /500Mi, 7.566Mi/s, 10sTransferred:   	    2.855 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m46s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m57.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 84% /500Mi, 7.533Mi/s, 10sTransferred:   	    2.857 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m46s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m58.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 85% /500Mi, 7.533Mi/s, 9sTransferred:   	    2.861 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m46s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m58.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 85% /500Mi, 7.438Mi/s, 9sTransferred:   	    2.864 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m45s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m59.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 86% /500Mi, 7.438Mi/s, 9sTransferred:   	    2.867 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m45s
+Transferred:            5 / 12, 42%
+Elapsed time:      5m59.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 87% /500Mi, 7.406Mi/s, 8sTransferred:   	    2.871 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m44s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m0.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 87% /500Mi, 7.406Mi/s, 8sTransferred:   	    2.875 GiB / 5.381 GiB, 53%, 9.018 MiB/s, ETA 4m44s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m0.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 88% /500Mi, 7.448Mi/s, 7sTransferred:   	    2.879 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m44s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m1.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 89% /500Mi, 7.448Mi/s, 6sTransferred:   	    2.883 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m43s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m1.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 90% /500Mi, 7.419Mi/s, 6sTransferred:   	    2.888 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m43s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m2.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 91% /500Mi, 7.419Mi/s, 5sTransferred:   	    2.892 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m42s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m2.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 92% /500Mi, 7.519Mi/s, 5sTransferred:   	    2.896 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m42s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m3.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 93% /500Mi, 7.519Mi/s, 4sTransferred:   	    2.899 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m41s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m3.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 93% /500Mi, 7.612Mi/s, 4sTransferred:   	    2.903 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m41s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m4.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 94% /500Mi, 7.612Mi/s, 3sTransferred:   	    2.907 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m40s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m4.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 95% /500Mi, 7.573Mi/s, 3sTransferred:   	    2.911 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m40s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m5.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 96% /500Mi, 7.573Mi/s, 2sTransferred:   	    2.915 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m39s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m5.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 96% /500Mi, 7.664Mi/s, 1sTransferred:   	    2.918 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m39s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m6.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 97% /500Mi, 7.664Mi/s, 1sTransferred:   	    2.922 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m39s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m6.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 98% /500Mi, 7.622Mi/s, 1sTransferred:   	    2.926 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m38s
+Transferred:            5 / 12, 42%
+Elapsed time:       6m7.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.006: 99% /500Mi, 7.622Mi/s, 0sTransferred:   	    2.930 GiB / 5.381 GiB, 54%, 9.018 MiB/s, ETA 4m38s
+Transferred:            6 / 12, 50%
+Elapsed time:       6m7.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  0% /500Mi, 0/s, -Transferred:   	    2.933 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m37s
+Transferred:            6 / 12, 50%
+Elapsed time:       6m8.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  0% /500Mi, 0/s, -Transferred:   	    2.937 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m37s
+Transferred:            6 / 12, 50%
+Elapsed time:       6m8.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  1% /500Mi, 5.926Mi/s, 1m23sTransferred:   	    2.940 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m37s
+Transferred:            6 / 12, 50%
+Elapsed time:       6m9.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  2% /500Mi, 5.926Mi/s, 1m22sTransferred:   	    2.943 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m36s
+Transferred:            6 / 12, 50%
+Elapsed time:       6m9.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  2% /500Mi, 7.007Mi/s, 1m9sTransferred:   	    2.947 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m36s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m10.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  3% /500Mi, 7.007Mi/s, 1m8sTransferred:   	    2.950 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m35s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m10.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  4% /500Mi, 7.004Mi/s, 1m8sTransferred:   	    2.953 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m35s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m11.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  4% /500Mi, 7.004Mi/s, 1m7sTransferred:   	    2.955 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m35s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m11.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  5% /500Mi, 6.247Mi/s, 1m15sTransferred:   	    2.961 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m34s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m12.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  6% /500Mi, 6.247Mi/s, 1m14sTransferred:   	    2.964 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m34s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m12.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  6% /500Mi, 7.004Mi/s, 1m6sTransferred:   	    2.968 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m33s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m13.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  7% /500Mi, 7.004Mi/s, 1m5sTransferred:   	    2.973 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m33s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m13.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  8% /500Mi, 7.167Mi/s, 1m3sTransferred:   	    2.978 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m32s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m14.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007:  9% /500Mi, 7.167Mi/s, 1m2sTransferred:   	    2.981 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m32s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m14.5s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007: 10% /500Mi, 7.580Mi/s, 58sTransferred:   	    2.984 GiB / 5.381 GiB, 55%, 9.018 MiB/s, ETA 4m32s
+Transferred:            6 / 12, 50%
+Elapsed time:      6m15.0s
+Transferring:
+ *       040fa199206aa0582b559e3418121b0a.7z.007: 11% /500Mi, 7.580Mi/s, 58s
+
